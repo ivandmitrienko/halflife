@@ -1,6 +1,6 @@
 body * {
-  outline: 1px solid lightgrey;
+  outline: 0px solid lightgrey;
 }
-section>p {margin-top: 0px;}
-h3 {text-align: center;}
+section>p {margin-top: 0px;margin-bottom: 0px;}
+h3, ol {margin-top: 0px;margin-bottom: 0px;}
 

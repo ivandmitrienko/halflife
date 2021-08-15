@@ -1,8 +1,18 @@
 body * {
-  outline: 0px solid lightgrey;
+  outline: 1px solid lightgrey;
 }
-section>p {margin-top: 0px;margin-bottom: 0px;}
-h3, ol {margin-top: 0px;margin-bottom: 0px;}
-span.a span.b span.c {display: inline-block;}
-div {display:inline;}
+.r1 {background:#ffffff; width: 481px;height: 698px; position: relative ;}
+.main {background: #FFFFFF;width: 442px;
+height: 469px;top: 26px;right: 20px;bottom: 203px;right: 19px;position: absolute;}
+.r2 {background: #358765; width: 199px;height: 49px;margin: 0px 121px 420px 120px;position: absolute;}
+.r3 {background: #588924;width: 153px;height: 116px;margin: 83px 255px 270px 34px;position: absolute;}
+.r4 {background: #588924;width: 153px;height: 116px;margin: 83px 34px 270px 255px;position: absolute;}
+.r5 {background: #EE2525;width: 147px;height: 147px;
+margin: 233px 295px 89px 0px; position: absolute;}
+.r6{background: #2D4BB5; width: 147px;height: 147px;
+margin: 233px 147px 89px 148px;position: absolute;}
+.r7 {background:#EDF111; width: 147px;height: 147px; margin: 233px 1px 89px 296px;position: absolute;}
+.r8 {background: #C4C4C4;width: 442px;height: 55px;margin: 414px 0px 0px 0px;position: absolute;}
+
+
 

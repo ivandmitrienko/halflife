@@ -2,4 +2,86 @@ body * {
   outline: 1px solid lightgrey;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+
+.header-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.rabbit {
+  height: 150px;
+  background-color: red;
+
+
+}
+.navigation {
+  height: 100px;
+  background-color: green;
+}
+
+.main {
+  background-image: url("./img/big-orange-bg\ \(1\).png");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.main .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+ 
+
+}
+
+.questions {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  font-size: 30px;
+
+
+}
+
+.navi {
+  list-style: none;
+  display: flex;
+  height: 100px;
+  background-color: green;
+  margin: 0px;
+  padding: 0px;
+}
+
+.elements{
+  margin: 0px 15px;
+
+}
+
+.elements:first-child{
+  margin-left: 0px;
+
+}
+.elements:last-child{
+  margin-right: 0px;
+}
+
+
+
+
+
+.main {
+}
+.footer {
+}
+
+
 

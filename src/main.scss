@@ -42,7 +42,8 @@ body * {
   display: flex;
   align-items: center;
   flex-direction:column;
-  font-size: 30px;
+  font-size: 37px;
+  
   
 
 
@@ -50,7 +51,7 @@ body * {
 
 @font-face {
   font-family: 'Bebas';
-  src: url('./fonts/Bebas.ttf');
+  src: url('../fonts/Bebas.ttf');
 }
 
 
@@ -59,23 +60,31 @@ body * {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fb9c06;
   width: 381px;
   height: 66px;
   background-color: #000000;
   margin-bottom: 26px;
+  color: #fb9c06;
   font-family: 'Bebas';
-
+  
 }
 
 
-.secon-question {
+
+
+.second-question {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #ffaf11;
   color: #6e6d6b;
   font-family: 'Bebas';
+  line-height: 26px;
+  width: 396px;
+  height: 76px;
+  text-align: justify;						 
+	text-align-last: justify;
+
   
 
 }

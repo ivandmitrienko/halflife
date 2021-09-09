@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 34" width="50" height="34">
+	<title>Navigation</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #6e6d6b } 
+	</style>
+	<g id="Navigation">
+		<path id="contact-icon" class="shp0" d="M48.88 34.02L1.72 34.02C1.18 34.02 0.75 33.58 0.75 33.05L0.75 1.61C0.75 1.07 1.18 0.64 1.72 0.64L48.88 0.64C49.41 0.64 49.85 1.07 49.85 1.61L49.85 33.05C49.85 33.58 49.41 34.02 48.88 34.02ZM47.06 32.08L32.79 13.55L25.33 18.55L17.75 13.48L3.46 32.08L47.06 32.08ZM2.68 29.9L16.14 12.41L2.68 3.42L2.68 29.9ZM4.91 2.58L25.3 16.2L45.68 2.58L4.91 2.58ZM34.4 12.47L47.91 30.01L47.91 3.42L34.4 12.47Z" />
+	</g>
+</svg>

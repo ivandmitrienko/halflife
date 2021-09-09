@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 43" width="43" height="43">
+	<title>Navigation</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #6e6d6b } 
+	</style>
+	<g id="Navigation">
+		<path id="work-icon" class="shp0" d="M1.78 1.16L1.16 1.78C0.48 2.47 0.48 3.58 1.16 4.27L35.14 38.25L43.01 43.01L38.25 35.14L4.27 1.16C3.58 0.48 2.47 0.48 1.78 1.16Z" />
+	</g>
+</svg>

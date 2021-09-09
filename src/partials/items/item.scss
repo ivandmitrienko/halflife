@@ -39,15 +39,12 @@
   align-items: center;
   width: 50%;
   height: 130px;
+  position: relative;
+  padding-bottom: 20px;
+  
   
 }
 
-.menu__items:after {
-  content: 'home';
-  position: absolute
-  
-  
-}
 
 .bg-about {
   width: 23px; height: 44px;
@@ -76,4 +73,24 @@
 .bg-work {
   width: 43px; height: 43px;
   background: url('./img/css_sprites.png') -84px -10px no-repeat;
+}
+
+
+.menu__content{
+  width: 100%;
+  position: absolute;
+  display: inline-block;
+
+   
+  
+}
+
+.words{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  font-size: 22px;
+  color: #9e9b9b;
+  text-align: justify;						 
+	text-align-last: justify;
+  padding-top: 90px;
+
 }

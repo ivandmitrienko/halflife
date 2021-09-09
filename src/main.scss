@@ -18,10 +18,7 @@ body * {
 @import'./partials/items/item.scss';
 
 
-.navigation {
-  height: 100px;
-  background-color: green;
-}
+
 
 .main {
   background-image: url("./img/big-orange-bg\ \(1\).png");
@@ -50,27 +47,7 @@ body * {
 
 }
 
-.navi {
-  list-style: none;
-  display: flex;
-  height: 100px;
-  background-color: green;
-  margin: 0px;
-  padding: 0px;
-}
 
-.elements{
-  margin: 0px 15px;
-
-}
-
-.elements:first-child{
-  margin-left: 0px;
-
-}
-.elements:last-child{
-  margin-right: 0px;
-}
 
 
 

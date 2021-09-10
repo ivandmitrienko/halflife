@@ -2,7 +2,7 @@ body * {
   outline: 1px solid lightgrey;
 }
 
-.container {
+.container, .container2{
   max-width: 1200px;
   margin: 0px auto;
 }
@@ -89,9 +89,31 @@ body * {
 
 }
 
+.four__collumns {
+  display: flex;
+  
+  
+}
 
+.lorem {
+  font-size: 15px;
+  line-height: 23px;
+  color: #000000;
+  font-family: "Calibri";
+  width: 262px;
+  height: 216px;
+  padding: 2em 1.5em;
 
+  
+}
 
+.read__more {
+  text-align: right;
+  color: #ffac00;
+  font-size: 17px;
+  margin: 0px;
+  font-style: italic;
+}
 
 
 

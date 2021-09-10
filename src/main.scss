@@ -25,6 +25,7 @@ body * {
   height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
+  border: 3px solid orange;
 
 
 }
@@ -89,31 +90,23 @@ body * {
 
 }
 
-.four__collumns {
-  display: flex;
-  
-  
+.container3 {
+  max-width: 1200px;
+  margin: 0px auto;
+  height: 615px;
 }
 
-.lorem {
-  font-size: 15px;
+.meet {
+  margin: 0px auto;
+  font-size: 40px;
   line-height: 23px;
-  color: #000000;
-  font-family: "Calibri";
-  width: 262px;
-  height: 216px;
-  padding: 2em 1.5em;
-
-  
+  text-decoration: underline;
+  color: #ff9c00;
+  font-weight: 250;
+  font-family: "St Marie";
+  text-align: center;
 }
 
-.read__more {
-  text-align: right;
-  color: #ffac00;
-  font-size: 17px;
-  margin: 0px;
-  font-style: italic;
-}
 
 
 

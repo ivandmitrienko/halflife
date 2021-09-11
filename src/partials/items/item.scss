@@ -68,6 +68,10 @@
 
 }
 
+.plus__main {
+  max-height: 1310px;
+}
+
 .four__collumns {
   display: flex;
   
@@ -84,18 +88,18 @@
   padding: 2em  1.5em  0px;
 }
 
-  .read__more {
-    text-align: right;
-    color: #ffac00;
-    font-size: 17px;
-    margin: 0px;
-    font-style: italic;
-  }
+.read__more {
+  text-align: right;
+  color: #ffac00;
+  font-size: 17px;
+  margin: 0px;
+  font-style: italic;
+}
 
 .container3 {
   max-width: 1200px;
   margin: 0px auto;
-  height: 515px;
+  height: 550px;
   
 }
 
@@ -107,15 +111,15 @@
   color: #ff9c00;
   font-weight: 250;
   font-family: "St Marie";
-  height: 100px;
+  height: 110px;
   max-width: 1200px;
-  margin: 0px auto;
+  padding: 30px auto;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.three__collums, .name, .main__img, {
+.three__collums, .name, .main__img {
   display: flex;
   justify-content: center ;
  
@@ -125,23 +129,99 @@
 
 .member {
   width: 33.3%;
-  border: 1px solid orange;
+  // border: 1px solid orange;
  
 }
 .img{
   border-radius: 50%;
   background-color: #ffb540;
+  margin-top: 30px;
   
 
   
 }
 
 .description{
-  width: 270px;
-  height: 238px;
   font-size: 15px;
   line-height: 23px;
   color: #333333;
   font-weight: 300;
   font-family: "Calibri";
+  padding: 2em 6.5em 0px ;
+}
+
+.name {
+font-size: 22px;
+ line-height: 23px;
+ color: #6e6d6b;
+ font-weight: 300;
+ font-family: "Calibri";
+}
+
+.value {
+  color: #fb9c06;
+}
+
+
+.container4 {
+  max-width: 1200px;
+  margin: 0px auto;
+  height: 515px;
+
+}
+
+.send{
+  text-align: center;
+  font-size: 40px;
+  line-height: 23px;
+  text-decoration: underline;
+  color: #ff9c00;
+  font-weight: 250;
+  font-family: "St Marie";
+  margin: 32px auto;
+}
+
+p {
+  font-size: 24px;
+  line-height: 23px;
+  color: #fb9c06;
+  font-weight: 250;
+  font-family: "St Marie";
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.in {
+  width: 1070px;
+  position: absolute;
+  right: 0px;
+  height: 30px;
+  top: 33.3%;
+
+}
+
+.high {
+  width: 1070px;
+  position: absolute;
+  right: 0px;
+  height: 80px;
+  top: 33.3%;
+}
+
+.sub {
+  background-color: orange;
+  font-size: 30px;
+  line-height: 23px;
+  color: #ffffff;
+  font-weight: 250;
+  font-family: "St Marie";
+  height: 45px;
+  width: 175px;
+  position: absolute;
+  right: 1em;
+  bottom: -3.5em;
 }

@@ -96,6 +96,7 @@
   max-width: 1200px;
   margin: 0px auto;
   height: 515px;
+  
 }
 
 .meet {
@@ -114,9 +115,10 @@
   justify-content: center;
 }
 
-.three__collums, .name{
+.three__collums, .name, .main__img, {
   display: flex;
   justify-content: center ;
+ 
   
 
 }
@@ -124,17 +126,17 @@
 .member {
   width: 33.3%;
   border: 1px solid orange;
+ 
 }
-
 .img{
   border-radius: 50%;
   background-color: #ffb540;
-  min-width: 100%;
+  
 
   
 }
 
-.discription {
+.description{
   width: 270px;
   height: 238px;
   font-size: 15px;

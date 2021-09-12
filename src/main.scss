@@ -1,5 +1,5 @@
 body * {
-  // outline: 1px solid lightgrey;
+  outline: 1px solid lightgrey;
 }
 
 .container, .container2{
@@ -118,7 +118,32 @@ body * {
 }
 
 
+.footer {
+  min-width: 1200px;
+  margin: 0px auto;
+  height: 410px;
 
+}
+
+.last{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 71px;
+ font-size: 33px;
+ line-height: 23px;
+ color: #ffffff;
+ font-weight: 250;
+ font-family: "St Marie";
+ background-color: #fb9c06;
+ border-bottom: 3px solid #cb830f;
+}
+
+.greyline {
+  height: 340px;
+  filter: drop-shadow(0.946px 0.326px 2.5px rgba(211,210,210,0.75));
+  background-color: #ffffff;
+}
 
 
 

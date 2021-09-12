@@ -121,7 +121,7 @@
 
 .three__collums, .name, .main__img {
   display: flex;
-  justify-content: center ;
+  justify-content:center ;
  
   
 
@@ -129,7 +129,7 @@
 
 .member {
   width: 33.3%;
-  // border: 1px solid orange;
+  
  
 }
 .img{
@@ -137,9 +137,11 @@
   background-color: #ffb540;
   margin-top: 30px;
   
-
+ 
   
 }
+
+
 
 .description{
   font-size: 15px;

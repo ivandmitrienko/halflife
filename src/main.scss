@@ -74,12 +74,30 @@ span {
   display: flex;
   margin: 110px 20px 90px;
   justify-content: space-between;
+ 
+
+  &-storys{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     
+    
+  }
   
 
   
 }
+
+.button .button-story{
+  padding-top: 40px;
+  display: flex;
+}
 .button-story__stylez {
-  background-color:red;
+  background-color: rgba(128,183,179,0.54);
+  border-radius: 20px;
+  text-align: center;
+  width: 195px;
+  height: 45px;
  
 }
 .button-story {

@@ -1,5 +1,75 @@
 body * {
   outline: 1px solid lightgrey;
+  background-color: aqua;
 }
 
+.content {
+  // padding: 125px 309px 105px 290px;
+  font-family: Arial, Helvetica, sans-serif;
+  // display: block;
+}
 
+span {
+  font-size: 14px;
+  letter-spacing: 3px;
+  line-height: 40px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.s {
+  margin: 0 0 28px;
+
+}
+ li {
+   margin: 0 0 20px;
+   background: url('./img/li.svg') left  no-repeat;
+   padding-left: 40px;
+   list-style-type: none;
+ }
+
+ 
+.content-first {
+}
+.content-first__table li:nth-child(1) {
+  text-decoration: line-through;
+}
+
+.content-first__table li:nth-child(2) {
+  font-weight: 700;
+  
+}
+
+.content-first__table li:nth-child(3) {
+  font-style: oblique;
+  
+}
+
+.content-first__table li:nth-child(4) {
+  text-transform: uppercase;
+  
+}
+
+.hover {
+  color: green;
+  display:flex;
+  align-items: center;
+  
+}
+
+.button {
+}
+.buton-story {
+}
+.button-story {
+
+		&__style {}
+}
+.input {
+}
+.input-text {
+}
+.zero {
+}
+.focus {
+}

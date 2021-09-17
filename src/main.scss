@@ -1,5 +1,5 @@
-body  {
-  outline: 1px solid black;
+body  * {
+  // outline: 1px solid black;
   // background-color: aqua;
 }
 
@@ -16,6 +16,7 @@ span {
   line-height: 40px;
   color: #000000;
   text-transform: uppercase;
+  
 }
 
 .s {
@@ -98,17 +99,64 @@ span {
   text-align: center;
   width: 195px;
   height: 45px;
+  text-decoration: none;
+  box-shadow: 0 0 20px 4px black;
  
 }
+
+a>span { 
+  background: url('./img/Shape\ 2.svg') right no-repeat;
+  padding-right: 40px;
+  
+}
+
+.hver:hover{
+  background-color: #3a5856;
+}
+
+
+.ver:active {
+  background-color: #818181;
+}
+
+
+
 .button-story {
 
 		&__style {}
 }
 .input {
+  display: flex;
+  align-items: center;
+  
+
 }
+
+.input, .button{
+  margin: 0 0 0 39px;
+}
+
+.own {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 40px;
+  padding-bottom: 39px;
+}
+
 .input-text {
 }
 .zero {
 }
-.focus {
+.focus:focus {
+  outline: 1px solid #7fbed5;
+  box-shadow: 0 0 5px 5px #7fb;
+}
+  
+
+.input-text {
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 20px;
 }

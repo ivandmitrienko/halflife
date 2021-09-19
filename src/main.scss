@@ -23,12 +23,40 @@ span {
   margin: 0 0 28px;
 
 }
- li {
-   margin: 0 0 20px;
-   background: url('./img/li.svg') left  no-repeat;
-   padding-left: 40px;
-   list-style-type: none;
- }
+
+li:before {
+  content: ' ';
+  background: url('./img/li.svg') left no-repeat;
+  width: 10px;
+  height: 10px;
+  padding-left: 40px;
+ 
+
+}
+
+li {
+  list-style-type: none;
+
+}
+
+
+li:hover:after{
+  content: ' ';
+  background: url('./img/li.svg') right no-repeat;
+  width: 10px;
+  height: 10px;
+  padding-right: 40px;
+
+}
+
+
+
+//  li {
+//    margin: 0 0 20px;
+//    background: url('./img/li.svg') left  no-repeat;
+//    padding-left: 40px;
+//    list-style-type: none;
+//  }
 
 .span {
   position: absolute;
@@ -42,10 +70,18 @@ span {
   
  }
 
- .hover{
-   background: url("./img/check\ icon.png") left/2.5% no-repeat ;
+//  .hover{
+//    background: url("./img/check\ icon.png") left/2.5% no-repeat ;
  
- }
+//  }
+
+.hover:before{
+  content: '';
+  background: url('./img/check\ icon.png') left no-repeat;
+  width: 20px;
+  height: 20px;
+  padding-left: 40px;
+}
  
 .content-first {
 }
@@ -104,9 +140,12 @@ span {
  
 }
 
-a>span { 
+a>span::after { 
+  content: '';
   background: url('./img/Shape\ 2.svg') right no-repeat;
   padding-right: 40px;
+  width: 10px;
+  height: 10px;
   
 }
 
@@ -159,4 +198,21 @@ a>span {
   margin-top: 40px;
   margin-left: 10px;
   margin-right: 20px;
+}
+
+
+.red:first-line {
+  font-size: 18px;
+  line-height: 28px;
+  color: #ff0000;
+  font-family: "Arial";
+  text-align: right;
+}
+.upper::first-letter {
+  font-size: 18px;
+  line-height: 28px;
+  color: #ff0000;
+  font-family: "Arial";
+  text-align: right;
+
 }

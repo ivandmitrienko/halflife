@@ -216,3 +216,24 @@ a>span::after {
   text-align: right;
 
 }
+
+
+.about{
+  position: relative;
+  text-align: center;
+}
+
+.about__about:after{
+  content: '';
+  width: 50px;
+  background-color: #000;
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  
+  
+  margin-left: -25px;
+  left: 50%;
+
+
+}

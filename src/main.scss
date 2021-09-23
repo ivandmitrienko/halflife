@@ -1,11 +1,13 @@
-body * {
-  outline: 1px solid lightgrey;
+.stars {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
-// .styled {
-//   width: 1;
-//   height: 1;
-//   opacity: 0;
-// }
+
+
+.stars__item {
+  -webkit-appearance: none;
+}
 
 input:before {
     content: '\f005';
@@ -15,39 +17,30 @@ input:before {
     font-variant: normal;
     text-rendering: auto;
     line-height: 1;
-    // padding-left: 100px;
+    font-size: 100px;
+    
+    
+
+}
+.stars__item:hover ~ input,
+.stars__item:hover {
+  content: "\f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: yellow;
+  font-size: 100px;
+
 
 }
 
-// .Styled {
-//   width: 1;
-//   height: 1;
-//   -webkit-appearance: none;
-//   opacity: 0;
-//   margin: -1px;
-// }
+.stars__item:checked ~ input,
+.stars__item:checked {
+  content: "\f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: yellow;
+  font-size: 100px;
 
 
-// .Styled:checked + .label:before {
-//   color:red;
-//   font-weight: 900;
-//   content: "\f14a"; 
-// }
-
-// .Styled:focus + .label {
-//   outline: 1px solid black;
-// }
-
-// .label:before {
-//   content: "\f058";
-//   font-family: "Font Awesome 5 Free";
-//   -webkit-font-smoothing: antialiased;
-//   display: inline-block;
-//   font-style: normal;
-//   font-variant: normal;
-//   text-rendering: auto;
-//   line-height: 1;
-//   font-weight: 400; 
-//   margin-right: 5px;  
-// }
+}
 

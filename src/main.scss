@@ -16,16 +16,15 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
-body * {
+body *{
   outline: 1px solid lightgrey;
-  background-color: #ffffff
-  ;
+  background-color: #ffffff;
 }
 
 .page {
   width: 100%;
   max-width: 976px;
   margin: 0 auto;
-  padding: 30px 0px 67px 0px;
+  padding: 30px 0px 67px;
  
 }

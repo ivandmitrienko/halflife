@@ -64,8 +64,12 @@ body *{
 .section-header {
 }
 .items {
+  display: flex;
 }
 .item {
+  width:100%;
+ 
+  
 }
 .last-news-newsfeed {
 }

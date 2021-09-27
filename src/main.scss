@@ -21,26 +21,61 @@ body *{
   background-color: #ffffff;
 }
 
-.page-body {
-  width: 100%;
-  max-width: 976px;
-  margin: 0 auto;
-  padding: 30px 0px 67px;
- 
+.page {
+
+  &__body {
+    width: 100%;
+    max-width: 976px;
+    margin: 0 auto;
+    padding: 30px 0px 67px; 
+  }
+
+  &__main {
+    display: flex;
+  }
+
+  &__first-column {
+    width: 100%;
+    max-width: 638px;
+  }
+
+  &__second-column {
+    width: 100%;
+    max-width: 338px;
+  }
+
+  &__footer {}
+}
+.hot-themes {
+
+  &__header {}
+}
+.columns {
+
+  &__first-column {}
+
+  &__second-column {}
+}
+.main-news {
+}
+.row {
+}
+.section-header {
+}
+.items {
+}
+.item {
+}
+.last-news-newsfeed {
+}
+.video {
+
+  &__header {}
+}
+.articles {
+
+  &__header {}
+}
+.overview {
 }
 
-.container-columns{
-  display: flex;
-}
-
-.first-column{
-  width: 100%;
-  max-width: 638px;
-
-}
-
-.second-column {
-  width: 100%;
-  max-width: 338px;
-
-}

@@ -28,3 +28,19 @@ body *{
   padding: 30px 0px 67px;
  
 }
+
+.container-columns{
+  display: flex;
+}
+
+.first-column{
+  width: 100%;
+  max-width: 638px;
+
+}
+
+.second-column {
+  width: 100%;
+  max-width: 338px;
+
+}

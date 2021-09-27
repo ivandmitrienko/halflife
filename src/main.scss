@@ -51,6 +51,7 @@ body *{
   &__header {}
 }
 .columns {
+  display: flex;
 
   &__first-column {}
 

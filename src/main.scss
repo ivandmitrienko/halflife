@@ -1,4 +1,26 @@
 @import './partials/zeroing.scss';
+// переменные
+// $fz:100px;
+// $color_1: black;
+// $color_2:yellow;
+// шаблоны
+// (.как класс) %tplborder {
+//   font-style: oblique;
+//   font-size: 10px;
+
+// }
+
+// @extend %tplborder;
+
+// миксин
+
+// @mixin fontz($f,$c) {
+//   font-size: $f;
+//   color: $c;
+
+// }
+
+// // @include fontz(100px, green);
 
  body *{
     outline: 1px solid lightgrey;

@@ -82,7 +82,7 @@
 }
 .items {
   display: flex;
-  &--column {
+  &--column, &--sidebar{
     display: flex;
     flex-direction: column;
   }
@@ -90,6 +90,11 @@
 }
 .item {
   width:100%;
+  &--sidebar{
+    display: flex;
+  }
+  
+  
  
   
 }

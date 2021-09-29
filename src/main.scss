@@ -1,4 +1,13 @@
 @import './partials/zeroing.scss';
+
+// теги
+// адаптивность
+// <meta name="viewport" content="width=device-width, initial-scale=1, 
+// maximum-scale=1, user-scalable=0">
+// формирование ссылки на айфоне
+// <meta name="format-detection" content="telephone=no"> 
+// краткое описание страницы
+// <meta name="description" content="......"> 
 // переменные
 // $fz:100px;
 // $color_1: black;
@@ -61,7 +70,9 @@
 
   &__first-column {}
 
-  &__second-column {}
+  &__second-column {
+    
+  }
 }
 .main-news {
 }
@@ -71,6 +82,11 @@
 }
 .items {
   display: flex;
+  &--column {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 .item {
   width:100%;

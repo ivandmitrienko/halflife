@@ -1,5 +1,6 @@
 @import './partials/zeroing.scss';
-// @import './partials/swiper/swiper.scss'
+@import './partials/swiper/swiper.scss';
+@font-face 
 
 // теги
 // адаптивность
@@ -32,19 +33,30 @@
 
 // // @include fontz(100px, green);
 
-body *{
+%tplfont {
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #333333;
+  font-weight: 400;
+  font-family: "PT Sans";
+  }
+
+body *:not(.swiper-button-next, 
+.swiper-button-prev){
     outline: 1px solid lightgrey;
-    background-color: #ffffff;
+    background-color: #fff;
+    
   }
 
 .page {
 
-  &__body {
+  &-body {
     width: 100%;
     max-width: 976px;
     margin: 0 auto;
     padding: 30px 0px 67px; 
   }
+
 
   &__main {
     display: flex;
@@ -53,14 +65,18 @@ body *{
   &__first-column {
     width: 100%;
     max-width: 638px;
+    padding: 0 18px;
   }
 
   &__second-column {
     width: 100%;
     max-width: 338px;
+    padding-right: 18px ;
   }
 
-  &__footer {}
+  &__footer {
+    padding: 0 18px;
+  }
 }
 .hot-themes {
 
@@ -72,7 +88,7 @@ body *{
   &__first-column {}
 
   &__second-column {
-    
+    padding-left: 18px;
   }
 }
 .main-news {
@@ -87,10 +103,13 @@ body *{
     display: flex;
     flex-direction: column;
   }
+  
+  
 
 }
 .item {
   width:100%;
+
   &--sidebar{
     display: flex;
   }
@@ -100,9 +119,18 @@ body *{
   
 }
 
+.items-row>.item {
+  padding-right: 18px;
+}
 
+.items-row>.item:last-child{
+  padding-right: 0;
+}
 
+a>p {
+  @extend %tplfont;
 
+}
 
 .last-news-newsfeed {
 }

@@ -3,8 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./main.scss">
     <title>Page</title>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/main.js" defer></script>
   </head>
   <body>
@@ -201,8 +206,8 @@
         <div class="page__footer">
           <section class="overview">
             <div class="row">
-              <header class="section-header"></header>
-              @@include ('../partials/_item.html')
+              <header class="section-header">Обзор</header>
+              @@include('./partials/swiper/_swiper.html')
             </div>
           </section>
         </div>

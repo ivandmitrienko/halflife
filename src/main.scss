@@ -1,6 +1,9 @@
 @import './partials/zeroing.scss';
 @import './partials/swiper/swiper.scss';
-@font-face 
+@font-face {
+  font-family: 'PTSans';
+  src: url('../src/fonts/PTSans-Regular.ttf');
+}
 
 // теги
 // адаптивность
@@ -38,7 +41,7 @@
   letter-spacing: 0px;
   color: #333333;
   font-weight: 400;
-  font-family: "PT Sans";
+  font-family: 'PTSans'
   }
 
 body *:not(.swiper-button-next, 

@@ -83,6 +83,15 @@ $lh:19px;
     @extend %tplfontH;
   }
 
+  .icons:after {
+    content: '';
+    background-image: url('./img/icon/Shape\ 75\ copy\ 5.png') right no-repeat;
+    width: 20px;
+    height: 20px;
+    padding-right: 20px;
+   
+  }
+
 body *:not(.swiper-button-next, 
 .swiper-button-prev){
     outline: 1px solid lightgrey;

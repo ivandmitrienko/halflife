@@ -44,6 +44,10 @@
 
 // // @include fontz(100px, green);
 
+$fs:18px;
+$lh:19px;
+
+
 %tplfontH {
   font-size: 30px;
   letter-spacing: 0px;
@@ -69,11 +73,11 @@
       text-decoration: underline
     } 
   }
+  
   p>span {
     font-size: 11px;
     color: #bfbfc0
-  }
-
+  } 
 
   h1 {
     @extend %tplfontH;
@@ -127,9 +131,16 @@ body *:not(.swiper-button-next,
 }
 .hot-themes {
   border-bottom: 5px solid #c70000;
+  margin-bottom: 30px;
 
 
-  &__header {}
+  &__header {
+    margin-bottom: 21px;
+    @extend %tplfontcontent;
+    font-size: $fs;
+    line-height: $lh;
+
+  }
 }
 .columns {
   display: flex;
@@ -141,6 +152,7 @@ body *:not(.swiper-button-next,
   }
 }
 .main-news {
+  margin-bottom: 52px;
 }
 .row {
 }
@@ -162,10 +174,14 @@ body *:not(.swiper-button-next,
   &--sidebar{
     display: flex;
   }
+
+  &-article {
+    padding-bottom: 20px;
+  }
    img {
      max-width: 100%;
-   }
-  
+   } 
+
 }
 
 .items-row>.item {

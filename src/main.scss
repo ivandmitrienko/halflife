@@ -1,5 +1,6 @@
 @import './partials/zeroing.scss';
 @import './partials/swiper/swiper.scss';
+@import './partials/article/articli.scss';
 @font-face {
   font-family: 'Sans';
   src: url('../fonts/Sansreg.ttf');
@@ -68,12 +69,17 @@
       text-decoration: underline
     } 
   }
-  
+  p>span {
+    font-size: 11px;
+    color: #bfbfc0
+  }
+
+
   h1 {
     @extend %tplfontH;
   }
 
-  
+ 
 
   // $fw:700px;
   // $ff: 'Serif';
@@ -120,6 +126,8 @@ body *:not(.swiper-button-next,
   }
 }
 .hot-themes {
+  border-bottom: 5px solid #c70000;
+
 
   &__header {}
 }
@@ -182,5 +190,6 @@ body *:not(.swiper-button-next,
   &__header {}
 }
 .overview {
+  border-bottom: 2px solid #333333;
 }
 

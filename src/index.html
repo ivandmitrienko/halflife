@@ -38,7 +38,8 @@
             </section>
             <section class="main-news">
               <div class="row">
-                <header class="section-header">Main News</header>
+                @@include('./partials/article/_article.html',
+                {"Header":"Main News"})
                 <div class="items items-row">
                   <div class="item ">
                     <img src="./img/main-news/Layer 161.png" alt="">
@@ -70,10 +71,12 @@
             <section class="/last-news-newsfeed">
               <div class="columns">
                 <div class="columns__first-column">
-                  <header class="section-header">Last News</header>
+                  @@include('./partials/article/_article.html',
+                {"Header":"Last News",
+                "Border":"blue"})
                   <ul>
                     <li><a href="#"> <p>Real Madrid players to gaffer: up and at 'em!</p></a></li>
-                    <li><a href="#"><p>Swedes indebted to talismanic Ibrahimovic</p> <span>marca.com</span></a></li>
+                    <li><a href="#"><p>Swedes indebted to talismanic Ibrahimovic <span>marca.com</span></p> </a></li>
                     <li><a href="#"><p>2016 European Championship to go ahead in France</p></a></li>
                     <li><a href="#"><p>Ancelotti: "Premier League return is my no. 1 choice"</p></a></li>
                     <li><a href="#"> <p>Walters double secures Euro 2016 spot for Ireland</p></a></li>
@@ -83,7 +86,9 @@
                     <li><a href="#"> <p>Niggles won't keep Benzema out of 'Clásico'</p></a></li>
                     <li><a href="#"><p>Abdeslam suspected to have been near King Baudouin Stadium</p></a></li>
                   </ul>
-                  <header class="section-header">Newsfeed</header>
+                  @@include('./partials/article/_article.html',
+                  {"Header":"Newsfeed",
+                  "Border":"border"})
                   <div class="columns">
                     <div class="columns__first-column">
                       <img src="./img/last-news-newsfeed/Layer 165.png" alt="Zlatan Ibrahimovic">
@@ -103,7 +108,7 @@
                       <p>Ecuador stay perfect as Argentina, Brazil win</p>
                     </a></li>
                     <li><a href="#">
-                      <p>Sweden, Ukraine complete Euro line-up <span>fifa.com</span></p>
+                      <p>Sweden, Ukraine complete Euro line-up <span>fifa.com</span></p> 
                     </a></li>
                     <li><a href="#">
                       <p> Aubameyang penalty gives Gabon World Cup joy</p>

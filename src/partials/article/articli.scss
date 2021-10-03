@@ -1,0 +1,37 @@
+$fcHeader: #3d76cc;
+$fcHeaderBorder: #c70000;
+$bw:3px;
+
+.section-header {
+    display: flex;
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Sans";
+    &.blue {
+      color: $fcHeader;
+    }
+
+    
+    
+    &:after{
+      content: '';
+      display: block;
+      border-bottom: 2px solid #333333;;
+      flex: 1 0 auto;
+      margin-left: 10px;
+      height: 0;
+      position: relative;
+      top: 20px;
+      
+    }
+    &.blue:after{
+      border-color: $fcHeaderBorder ;
+    }
+    &.border:after{
+      border-color: $fcHeaderBorder ;
+      border-width: $bw;
+    }
+  }

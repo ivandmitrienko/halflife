@@ -73,7 +73,7 @@ $lh:19px;
       text-decoration: underline
     } 
   }
-  
+
   p>span {
     font-size: 11px;
     color: #bfbfc0
@@ -82,13 +82,6 @@ $lh:19px;
   h1 {
     @extend %tplfontH;
   }
-
- 
-
-  // $fw:700px;
-  // $ff: 'Serif';
-  // $fch:#c80000;
-
 
 body *:not(.swiper-button-next, 
 .swiper-button-prev){
@@ -207,5 +200,9 @@ body *:not(.swiper-button-next,
 }
 .overview {
   border-bottom: 2px solid #333333;
+}
+
+.articles {
+  border-bottom: 5px solid #333333;
 }
 

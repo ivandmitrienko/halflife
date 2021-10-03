@@ -5,9 +5,8 @@
   src: url('../fonts/Sansreg.ttf');
 }
 @font-face {
-  font-family: 'Sans';
-  src: url('../src/fonts/PTSans-Bold.ttf');
-  font-weight: bold;
+  font-family: 'Serif';
+  src: url('../src/fonts/PTSerif-Regular.ttf');
 }
 
 
@@ -44,13 +43,42 @@
 
 // // @include fontz(100px, green);
 
-%tplfont {
+%tplfontH {
+  font-size: 30px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #c80000;
+  font-weight: 400;
+  font-family: "Serif";
+}
+
+%tplfontcontent {
   font-size: 14px;
   letter-spacing: 0px;
+  line-height: 18px;
   color: #333333;
   font-weight: 400;
   font-family: 'Sans';
   }
+
+  a>p {
+    @extend %tplfontcontent;
+    &:hover{
+      color: #3d76cc;
+      text-decoration: underline
+    } 
+  }
+  
+  h1 {
+    @extend %tplfontH;
+  }
+
+  
+
+  // $fw:700px;
+  // $ff: 'Serif';
+  // $fch:#c80000;
+
 
 body *:not(.swiper-button-next, 
 .swiper-button-prev){
@@ -65,7 +93,9 @@ body *:not(.swiper-button-next,
     width: 100%;
     max-width: 976px;
     margin: 0 auto;
-    padding: 30px 0px 67px; 
+    padding: 30px 0px 67px;
+    
+
   }
 
 
@@ -132,16 +162,14 @@ body *:not(.swiper-button-next,
 
 .items-row>.item {
   padding-right: 18px;
+
 }
 
 .items-row>.item:last-child{
   padding-right: 0;
 }
 
-a>p {
-  @extend %tplfont;
 
-}
 
 .last-news-newsfeed {
 }

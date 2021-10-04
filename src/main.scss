@@ -1,7 +1,8 @@
 @import './partials/zeroing.scss';
 @import './partials/swiper/swiper.scss';
-@import './partials/article/articl.scss';
-@import './partials/icons/icons.scss'
+@import './partials/article/articles.scss';
+@import './partials/icons/icons.scss';
+
 @font-face {
   font-family: 'Sans';
   src: url('../fonts/Sansreg.ttf');
@@ -10,35 +11,6 @@
   font-family: 'Serif';
   src: url('../src/fonts/PTSerif-Regular.ttf');
 }
-
-
-
-
-// теги
-// адаптивность
-// <meta name="viewport" content="width=device-width, initial-scale=1, 
-// maximum-scale=1, user-scalable=0">
-// формирование ссылки на айфоне
-// <meta name="format-detection" content="telephone=no"> 
-// краткое описание страницы
-// <meta name="description" content="......"> 
-// переменные
-// $fz:100px;
-// $color_1: black;
-// $color_2:yellow;
-// шаблоны
-// (.как класс) %tplborder {
-//   font-style: oblique;
-//   font-size: 10px;
-
-// }
-
-// @extend %tplborder;
-
-// миксин
-// @mixin icon($cont, $fwei)
-//  @include fontz(100px, green);
-
 
 $fs:18px;
 $lh:19px;
@@ -107,12 +79,13 @@ body *:not(.swiper-button-next,
     width: 100%;
     max-width: 638px;
     padding: 0 18px;
+
   }
 
   &__second-column {
     width: 100%;
     max-width: 338px;
-    padding-right: 18px ;
+    padding-right: 18px;
   }
 
   &__footer {
@@ -123,13 +96,16 @@ body *:not(.swiper-button-next,
   border-bottom: 5px solid #c70000;
   margin-bottom: 30px;
 
-
   &__header {
     margin-bottom: 21px;
     @extend %tplfontcontent;
     font-size: $fs;
     line-height: $lh;
 
+  }
+  &__swipper {
+    position: relative;
+    top: 50px;
   }
 }
 .columns {

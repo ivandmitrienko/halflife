@@ -1,0 +1,40 @@
+.hot-themes {
+
+    &__swipper { 
+      position: absolute;
+      bottom: 12px;
+      right: 12px;
+     
+
+
+
+    }
+}
+.small-swipper {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Sans";
+    &:after{
+        content: url('../../img/icon/Shape\ 27\ copy\ 6.png');
+        position: relative;
+        background: url('../../img/icon/Shape\ 6\ copy\ 6\ \(1\).png') right no-repeat;
+        padding: 8px 22px 0 0;
+        top: 3px;
+        left: 5px;
+
+    }
+
+    &:before{
+        content: url('../../img/icon/Shape\ 6\ copy\ 6.png');
+        position: relative;
+        top: 5px;
+        right: 5px;
+       
+
+    }
+
+
+}

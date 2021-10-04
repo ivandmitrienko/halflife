@@ -1,7 +1,8 @@
 @import './partials/zeroing.scss';
-@import './partials/swiper/swiper.scss';
+@import './partials/swipper/swipper.scss';
 @import './partials/article/articles.scss';
 @import './partials/icons/icons.scss';
+@import './partials/swipper/small-swipper.scss';
 
 @font-face {
   font-family: 'Sans';
@@ -14,6 +15,7 @@
 
 $fs:18px;
 $lh:19px;
+$fw:700px;
 
 
 %tplfontH {
@@ -32,6 +34,15 @@ $lh:19px;
   color: #333333;
   font-weight: 400;
   font-family: 'Sans';
+  }
+
+  %tplfontweight {
+    font-size: 18px;
+letter-spacing: 0px;
+line-height: 20px;
+color: #333333;
+font-weight: 700;
+font-family: "PT Sans";
   }
 
   a>p {
@@ -103,10 +114,6 @@ body *:not(.swiper-button-next,
     line-height: $lh;
 
   }
-  &__swipper {
-    position: relative;
-    top: 50px;
-  }
 }
 .columns {
   display: flex;
@@ -114,6 +121,7 @@ body *:not(.swiper-button-next,
   &__first-column {}
 
   &__second-column {
+    position: relative;
     padding-left: 18px;
   }
 }

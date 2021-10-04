@@ -38,11 +38,11 @@ $fw:700px;
 
   %tplfontweight {
     font-size: 18px;
-letter-spacing: 0px;
-line-height: 20px;
-color: #333333;
-font-weight: 700;
-font-family: "PT Sans";
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Sans";
   }
 
   a>p {
@@ -57,6 +57,10 @@ font-family: "PT Sans";
     font-size: 11px;
     color: #bfbfc0
   } 
+
+  a>.some-weight {
+    @extend  %tplfontweight;
+  }
 
   h1 {
     @extend %tplfontH;
@@ -187,3 +191,9 @@ body *:not(.swiper-button-next,
   border-bottom: 5px solid #333333;
 }
 
+.item-link{
+  color:#c70000;
+  &__text{
+    color: #3d76cc;
+  }
+}

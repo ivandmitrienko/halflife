@@ -74,10 +74,10 @@ $fw:700;
 body *:not(.swiper-button-next, 
 .swiper-button-prev){
     outline: 1px solid lightgrey;
-    background-color: #fff;
+    // background-color: #fff;
     
   }
-
+  
 .page {
 
   &-body {
@@ -117,13 +117,26 @@ body *:not(.swiper-button-next,
   margin-bottom: 30px;
 
   &__header {
+    background-color: #d7d8d9;
     margin-bottom: 21px;
     @extend %tplfontcontent;
     font-size: $fs;
     line-height: $lh;
+    &>span {
+      display: inline-block;
+      padding: 5px 12px;  
+
+    }
+    &>.black {
+      background-color:#333333;
+      color: #ffffff;
+    }
 
   }
 }
+
+
+  
 .columns {
   display: flex;
 

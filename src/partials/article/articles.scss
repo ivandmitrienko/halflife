@@ -14,6 +14,14 @@ $fcHeaderBorder: #c70000;
       color: $fcHeader;
     }
 
+    &.title-video{
+      font-size: 18px;
+      color: #6a0099;
+      font-weight: 700;
+    }
+
+    
+
     
     
     &:after{
@@ -26,9 +34,27 @@ $fcHeaderBorder: #c70000;
       position: relative;
       top: 20px;
       
+      
     }
+    
+    
     &.blue:after{
       border-color: $fcHeaderBorder ;
     }
-    
+    &.title-video:after{
+      margin-left: 3px;
+      top: 15px;
+    }
+
+    &.title-video:before{
+      content: '';
+      display: block;
+      border-bottom: 2px solid #333333;;
+      flex: 1 0 auto;
+      height: 0;
+      position: relative;
+      top: 15px;
+      margin-right: 3px;
+
+    }
   }

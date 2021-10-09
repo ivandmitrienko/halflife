@@ -58,7 +58,7 @@ $fw:700;
     color: #bfbfc0
   } 
 
-  a>.some-weight {
+  a>.item__text-weight {
     @extend  %tplfontweight;
     padding-bottom: 20px;
    
@@ -191,7 +191,7 @@ body *:not(.swiper-button-next,
 
 }
 
-.item__img>img {
+.item__img-icon>img {
   width: 100%;
 }
 
@@ -209,15 +209,18 @@ body *:not(.swiper-button-next,
 .last-news-newsfeed {
 }
 
-// .last-news__items>li{
-//   margin-bottom: 5px;
-//   list-style-type:disc;
   
-// }
-// .last-news__items{
-//   list-style-type:disc;
-// }
+ul>li{
+  padding-bottom: 7px;
 
+}
+
+.last-news__items>li:last-child{
+    padding-bottom: 35px;
+  }
+
+
+ 
 .video {
 
   &__header {}

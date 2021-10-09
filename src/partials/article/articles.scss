@@ -1,6 +1,6 @@
 $fcHeader: #3d76cc;
 $fcHeaderBorder: #c70000;
-$bw:3px;
+
 
 .section-header {
     display: flex;
@@ -30,8 +30,5 @@ $bw:3px;
     &.blue:after{
       border-color: $fcHeaderBorder ;
     }
-    &.border:after{
-      border-color: $fcHeaderBorder ;
-      border-width: $bw;
-    }
+    
   }

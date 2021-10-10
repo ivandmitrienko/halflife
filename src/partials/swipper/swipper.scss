@@ -45,6 +45,7 @@
     justify-content: center;
     color: red;
     font-weight: bold;
+
     
    
 }
@@ -60,4 +61,32 @@
   &.text{
     color: #3d76cc;
   }
+}
+
+.swiper-slide-active--small{
+  position: relative;
+  &:after{
+    content: attr(aria-label);
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    @extend %tplfontweight;
+    background: url("../../img/icon/Shape\ 27\ copy\ 6.png") right no-repeat;
+    padding-right: 30px;
+  }
+}
+
+
+.swiper-button-next--small, .swiper-button-prev--small{
+  top: auto;
+  bottom: 0px;
+
+
+}
+
+.swiper-button-prev--small{
+  right: 120px;
+  left: auto;
+
+
 }

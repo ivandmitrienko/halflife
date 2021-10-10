@@ -68,10 +68,6 @@ $fw:700;
     @extend %tplfontH;
   }
 
- .video__text{
-  @extend  %tplfontweight;
-  font-size: 14px;
- }
   
 
 body *:not(.swiper-button-next, 
@@ -134,7 +130,7 @@ body *:not(.swiper-button-next,
       padding: 5px 12px;  
 
     }
-    &>.black {
+    &--black {
       background-color:#333333;
       color: #ffffff;
     }
@@ -145,24 +141,27 @@ body *:not(.swiper-button-next,
 
   
 .columns {
-  width: 100%;
-  max-width: 638px;
   display: flex;
 
 
   &__first-column {
+    width: 380px;
+    max-width: 100%;
     
     
   } 
 
   &__second-column {
+    width: 242px;
+    max-width: 100%;
+    padding-left: 18px ;
     
     // position: relative;
     
 
     &--row{
       
-      // padding-left: 7px;
+      padding-left: 7px;
     }
     .icon-foto--text {
       font-weight: $fw;
@@ -182,38 +181,19 @@ body *:not(.swiper-button-next,
   &--column, &--sidebar{
     display: flex;
     flex-direction: column;
-  }
-  
-
-
-}
-.item {
-  
-
-
-  &--sidebar{
-    display: flex;
-    margin-bottom: 12px;
-  }
-
-  &-article {
-    margin-bottom: 20px;
-  }
-  
+    
+  } 
 
 }
 
-.item--sidebar:last-child{
-  padding-bottom: 0px;
-
-}  
+  
 
 .item__img-icon>img {
-  // width: 100%;
+  width: 100%;
 }
 
 .items-row>.item {
-  // margin-right: 18px;
+  margin-right: 18px;
 
 }
 
@@ -233,35 +213,71 @@ ul>li{
 }
 
 .last-news__items>li:last-child{
-    margin-bottom: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 45px;
   }
 
-
+  .item {
+    &--sidebar{
+      display: flex;
+    }
+  } 
  
 .video {
-
-  &__header {
-    
-
+  &__header {  
   }
+  
+  
+  &__item{
+    margin-bottom: 13px;
+  }
+
   &__link{
     @extend  %tplfontweight;
     font-weight: 400;
     color: #3d76cc;
-    padding: 24px 0 8px;
+    margin: 24px 0 8px;
     border-bottom: 5px solid #333333;;
 
   }
+  
+  &__text{
+    @extend  %tplfontweight;
+    font-size: 14px;
+    padding: 0 8px;
+  }
+    
 }
 
+.video__item:last-child{
+  margin-bottom: 0px;
+
+}
 
 
 .articles {
   border-bottom: 5px solid #333333;
 
-  &__header {}
+  &__header {
+    @extend %tplfontcontent;
+    font-size: 24px;
+    line-height: 30px;
+    border-bottom: 2px solid #333333;
+    margin: 50px 0 8px;
+  }
+  &__item {
+    margin-bottom: 20px;
+  }
+  &__text{
+    @extend %tplfontcontent;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0 8px;
+  }
 }
+  
+
+  
 .overview {
   border-bottom: 2px solid #333333;
 }
-

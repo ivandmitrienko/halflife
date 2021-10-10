@@ -66,6 +66,7 @@ $fw:700;
 
   h1 {
     @extend %tplfontH;
+    
   }
 
   
@@ -76,6 +77,21 @@ body *:not(.swiper-button-next,
     // background-color: #fff;
     
   }
+ .page-link{
+   position: absolute;
+   right: 0;
+   top:33.3%;
+   transform-origin: 100% 100%;
+   transform: rotate(-90deg);
+   @extend %tplfontweight;
+   font-size: 14px;
+   background-color: #bfbfc0;
+   border: 2px solid #ffffff;
+   padding: 5px;
+  &__text{
+    color: #ffffff;
+  }
+ } 
   
 .page {
 
@@ -136,6 +152,11 @@ body *:not(.swiper-button-next,
     }
 
   }
+  &__text{
+    padding-right: 25px;
+  }
+
+
 }
 
 

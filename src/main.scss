@@ -101,18 +101,18 @@ body *:not(.swiper-button-next,
   &__first-column {
     width: 100%;
     max-width: 638px;
-    padding: 0 18px;
+    margin: 0 18px;
 
   }
 
   &__second-column {
     width: 100%;
     max-width: 338px;
-    padding-right: 18px;
+    margin-right: 18px;
   }
 
   &__footer {
-    padding: 0 18px;
+    margin: 0 18px;
   }
 }
 .hot-themes {
@@ -147,9 +147,11 @@ body *:not(.swiper-button-next,
 
   &__second-column {
     position: relative;
-    padding-left: 18px;
+    // margin-left: 18px;
+   
 
     &--row{
+      
       padding-left: 7px;
     }
     .icon-foto--text {
@@ -181,17 +183,13 @@ body *:not(.swiper-button-next,
 
   &--sidebar{
     display: flex;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
   }
 
   &-article {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
   
-
-   img {
-     max-width: 100%;
-   } 
 
 }
 
@@ -225,7 +223,7 @@ ul>li{
 }
 
 .last-news__items>li:last-child{
-    padding-bottom: 35px;
+    margin-bottom: 30px;
   }
 
 

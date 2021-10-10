@@ -88,6 +88,7 @@ body *:not(.swiper-button-next,
     max-width: 976px;
     margin: 0 auto;
     padding: 30px 0px 67px;
+
     
 
   }
@@ -95,20 +96,23 @@ body *:not(.swiper-button-next,
 
   &__main {
     display: flex;
+    margin: 0 18px;
     
   }
 
   &__first-column {
     width: 100%;
-    max-width: 638px;
-    margin: 0 18px;
+    max-width: 640px;
+    margin-right: 18px;
+    
+   
 
   }
 
   &__second-column {
     width: 100%;
-    max-width: 338px;
-    margin-right: 18px;
+    max-width: 300px;
+    
   }
 
   &__footer {
@@ -141,18 +145,24 @@ body *:not(.swiper-button-next,
 
   
 .columns {
+  width: 100%;
+  max-width: 638px;
   display: flex;
 
-  &__first-column {}
+
+  &__first-column {
+    
+    
+  } 
 
   &__second-column {
-    position: relative;
-    // margin-left: 18px;
-   
+    
+    // position: relative;
+    
 
     &--row{
       
-      padding-left: 7px;
+      // padding-left: 7px;
     }
     .icon-foto--text {
       font-weight: $fw;
@@ -178,7 +188,7 @@ body *:not(.swiper-button-next,
 
 }
 .item {
-  width:100%;
+  
 
 
   &--sidebar{
@@ -199,16 +209,16 @@ body *:not(.swiper-button-next,
 }  
 
 .item__img-icon>img {
-  width: 100%;
+  // width: 100%;
 }
 
 .items-row>.item {
-  padding-right: 18px;
+  // margin-right: 18px;
 
 }
 
 .items-row>.item:last-child{
-  padding-right: 0;
+  margin-right: 0;
 }
 
 

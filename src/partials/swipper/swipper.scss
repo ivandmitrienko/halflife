@@ -79,13 +79,25 @@
 
 .swiper-button-next--small, .swiper-button-prev--small{
   top: auto;
-  bottom: 0px;
+  bottom: 10px;
+  --swiper-theme-color:red;
+  --swiper-navigation-size:18px;
+  --swiper-theme-weight:bold;
+  font-weight: 700;
+ 
 
+  }
 
-}
+  
+
+  .swiper-button-next--small{
+    left: auto;
+    right: 20px;
+  }
+
 
 .swiper-button-prev--small{
-  right: 120px;
+  right: 115px;
   left: auto;
 
 

@@ -1,11 +1,14 @@
 @import './partials/zeroing.scss';
 
 
-
+@font-face {
+  font-family: 'Myriad';
+  src: url('../fonts/Myriad.ttf');
+}
 
 body {
   background-color: #161616;
-  color: #ffffff;
+  font-family: 'Myriad';
 }
 
 
@@ -26,14 +29,36 @@ header {
 }
 
 
-// .header {
-  
+.header {
+  color: #ffffff;
+  &__title {
+    font-size: 60px;
+    letter-spacing: -3px;
+    line-height: 48px;
+    font-weight: bold;
+    &:first-letter{
+      color: #ffc600;
+    }
+  } 
+  &__text{
+    font-size: 18px;
+    &:first-letter{
+      color: #ffc600;
+    }
+  }
+  &__link {
+    font-size: 18px;
+    color: #ffc600;
+  }
 
-// .header-title {
-// }
-// .header-navigation {
-// }
-// }
+
+}
+
+
+
+.header-navigation {
+}
+
 
 
 

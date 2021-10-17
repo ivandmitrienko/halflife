@@ -86,12 +86,12 @@ header {
 
   &__link{
     color: $fcyellow;
+    padding: 3px;
+
     &:hover{
       color: #ffffff;
-      &::after{
-        
-
-      }
+      border-bottom: 1px solid $fcyellow;
+      
 
     }
    

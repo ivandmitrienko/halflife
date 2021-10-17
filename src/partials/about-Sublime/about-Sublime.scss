@@ -1,0 +1,44 @@
+
+.about-sublime-top {
+    display: flex;
+
+
+.about-sublime-title {
+    display: flex;
+    flex-direction: column;
+&__about {
+ margin: 68px 0 0 137px;
+ font-size: 50px;
+ color: #717171;
+ font-weight: bold;
+}
+
+&__Sublime {
+ margin: 2px 0 93px 133px;
+ font-size: 80px;
+ color: #000000;
+ font-weight: bold;
+ &:first-letter{
+     color: #ffc600;
+ }
+}
+}
+.about-sublime-top-text {
+    max-width: 597px;
+    
+    
+
+		&__first {
+            font-size: 16px;
+            color: #000000;
+            font-style: oblique;
+            
+        }
+
+		&__second {
+            font-size: 14px;
+            color:#595959;
+
+        }
+}
+}

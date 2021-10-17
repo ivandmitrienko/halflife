@@ -7,6 +7,7 @@
 }
 
 $fs:18px;
+$fc:#ffffff;
 
 body {
   background-color: #161616;
@@ -15,7 +16,6 @@ body {
 
 
 header {
-  height: 1086px;
   background-image: linear-gradient(rgba(0, 14, 22, 1), rgba(0, 14, 22, 0.8)), url('./img/header/Layer\ 6@1X.png');
   background-position: top;
   background-repeat: repeat, no-repeat;
@@ -31,9 +31,9 @@ header {
 }
 
 
-.header {
+.header-inner {
   display: inline-block;
-  color: #ffffff;
+  color: $fc;
   &__title {
     margin: 114px 497px 22px 35px;
     font-size: 202px;
@@ -51,16 +51,23 @@ header {
     }
   }
   &__link {
-    margin: 0 1014px 64px 43px;
+    margin: 0 1014px 0px 43px;
     font-size: $fs;
     color: #ffc600;
   }
 }
 
 .header-navigation {
-  height: 654px;
-  background: url('./img/header/Layer\ 5@1X.png') cover no-repeat;
+  color: $fc;
+  height: 600px;
+  background-image: url('./img/header/Layer\ 5@1X.png');
+  &__title{
+    margin:70px 739px 60px 46px;
+    font-size: 60px;
+    line-height: 48px;
+    font-weight: bold;
 
+  }
 
 }
 

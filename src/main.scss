@@ -6,6 +6,8 @@
   src: url('../fonts/Myriad.ttf');
 }
 
+$fs:18px;
+
 body {
   background-color: #161616;
   font-family: 'Myriad';
@@ -23,40 +25,43 @@ header {
 
 .container {
   width: 100%;
-  max-width:1198px;
+  max-width: 1198px;
   margin: 0 auto;
 
 }
 
 
 .header {
+  display: inline-block;
   color: #ffffff;
   &__title {
-    font-size: 60px;
-    letter-spacing: -3px;
-    line-height: 48px;
+    margin: 114px 497px 22px 35px;
+    font-size: 202px;
     font-weight: bold;
     &:first-letter{
       color: #ffc600;
     }
   } 
   &__text{
-    font-size: 18px;
+    margin: 0 783px 30px 42px;
+    padding-right: 54px;
+    font-size: $fs;
     &:first-letter{
       color: #ffc600;
     }
   }
   &__link {
-    font-size: 18px;
+    margin: 0 1014px 64px 43px;
+    font-size: $fs;
     color: #ffc600;
   }
-
-
 }
 
-
-
 .header-navigation {
+  height: 654px;
+  background: url('./img/header/Layer\ 5@1X.png') cover no-repeat;
+
+
 }
 
 

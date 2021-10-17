@@ -8,6 +8,7 @@
 
 $fs:18px;
 $fc:#ffffff;
+$fcyellow:#ffc600;
 
 body {
   background-color: #161616;
@@ -33,13 +34,14 @@ header {
 
 .header-inner {
   display: inline-block;
+  margin-top: 114px;
   color: $fc;
   &__title {
-    margin: 114px 497px 22px 35px;
+    margin: 0 497px 22px 35px;
     font-size: 202px;
     font-weight: bold;
     &:first-letter{
-      color: #ffc600;
+      color: $fcyellow;
     }
   } 
   &__text{
@@ -47,27 +49,56 @@ header {
     padding-right: 54px;
     font-size: $fs;
     &:first-letter{
-      color: #ffc600;
+      color: $fcyellow;
     }
   }
   &__link {
-    margin: 0 1014px 0px 43px;
+    margin: 0 1014px 0 43px;
     font-size: $fs;
-    color: #ffc600;
+    color: $fcyellow;
   }
 }
 
 .header-navigation {
+  display: inline-block;
+  margin-top: 64px;
   color: $fc;
-  height: 600px;
   background-image: url('./img/header/Layer\ 5@1X.png');
   &__title{
     margin:70px 739px 60px 46px;
+    padding-right: 45px;
     font-size: 60px;
     line-height: 48px;
     font-weight: bold;
+    &>span {
+      color: $fcyellow;
+    }
+  }
+  
+  &__menu{
+    margin: 0 803px 418px 42px;
+    max-width: 285px;
+    display: flex;
+    justify-content: space-between;
+    font-size: $fs;
+  
+  }
+
+  &__link{
+    color: $fcyellow;
+    &:hover{
+      color: #ffffff;
+      &::after{
+        
+
+      }
+
+    }
+   
 
   }
+   
+
 
 }
 

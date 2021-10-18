@@ -3,18 +3,23 @@
     display: flex;
 
 
+
 .about-sublime-title {
     display: flex;
     flex-direction: column;
-&__about {
- margin: 68px 0 0 137px;
- font-size: 50px;
- color: #717171;
- font-weight: bold;
+    line-height: 50px;
+    &__about {
+     margin: 68px 0 0 137px;
+     font-size: 30px;
+     color: #717171;
+     font-weight: bold;
+     &:first-letter{
+       font-size: 50px;
+    }    
 }
 
 &__Sublime {
- margin: 2px 0 93px 133px;
+ margin: 0 0 93px 133px;
  font-size: 80px;
  color: #000000;
  font-weight: bold;

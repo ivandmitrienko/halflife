@@ -1,6 +1,8 @@
 
 .about-sublime-top {
     display: flex;
+    
+    
 
 
 
@@ -14,25 +16,39 @@
      color: #717171;
      font-weight: bold;
      &:first-letter{
-       font-size: 50px;
-    }    
-}
-
-&__Sublime {
- margin: 0 0 93px 133px;
- font-size: 80px;
- color: #000000;
- font-weight: bold;
- &:first-letter{
-     color: #ffc600;
- }
-}
+         font-size: 50px;
+        }    
+    }
+    &__Sublime {
+     margin: 0 0 0 133px;
+     font-size: 80px;
+     color: #000000;
+     font-weight: bold;
+     &:first-letter{
+         color: #ffc600;
+        }
+      
+    }
 }
 .about-sublime-top-text {
     max-width: 597px;
-    
-    
-
+    // position: relative;
+    &:before{
+        contain: '';
+        display: flex;
+        flex: 0 0 30px;
+        background-color: #ffc600;
+        margin: 0 30px 0 0;
+        height: 1px;
+        // content: '';
+        // position: absolute;
+        // height: 124px;
+        // width: 1px;
+        // left: -21px;
+        // top: 10px;
+        // background-color: #ffc600;
+    }
+    margin: 36px 3px 0 397px;
 		&__first {
             font-size: 16px;
             color: #000000;
@@ -41,9 +57,10 @@
         }
 
 		&__second {
+            margin: 24px 20px 0 0;
             font-size: 14px;
             color:#595959;
 
         }
-}
+    }
 }

@@ -3,7 +3,9 @@
     display: flex;  
     font-size: 30px;
     color: #000000;
-    font-weight: bold;   
+    font-weight: bold;
+   
+    
     &__yellow {
         margin-right: 10px;
         &:first-letter{
@@ -22,12 +24,12 @@
         
     
 }
-.underline {
-    &:after{
+.underline {  
+    &:after{ 
         content: '';
         display: flex;
         flex: 0 0 auto;
-        align-items: flex-end;
+        align-self: flex-end;
         height: 1px;
         width: 90px;
         background-color: #c5c5c5;

@@ -25,8 +25,8 @@
                 width: 30px;
                 background-color: #ffc600;
                 position: absolute;
-                height: 1px;
-                bottom: 0px;
+                height: 2px;
+                bottom: -3px;
                 margin-left: -5px;
                 left: 50%; 
             }
@@ -42,17 +42,24 @@
                 width: 30px;
                 background-color: #ffc600;
                 position: absolute;
-                height: 1px;
-                bottom: 0px;
+                height: 2px;
+                bottom: -3px;
                 margin-left: -25px;
                 left: 50%; 
             }
         }
 }
 
-.projects-content{
-    margin-top: 100px;
-    
-}
 
+.projects-content {
+    margin-top: 26px;
+    
+
+    &__items {
+        display: grid;
+        grid-template: repeat(2,1fr)/repeat(4,1fr);
+    }
+
+    &__item {}
+}
 

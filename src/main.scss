@@ -49,10 +49,10 @@ header {
 
 .header-inner {
   display: inline-block;
-  margin-top: 114px;
+  margin: 114px 0 0 42px;
   color: $fc;
   &__title {
-    margin: 0 497px 22px 35px;
+    margin-bottom: 22px;
     font-size: 202px;
     font-weight: bold;
     &:first-letter{
@@ -60,15 +60,15 @@ header {
     }
   } 
   &__text{
-    margin: 0 783px 30px 42px;
-    padding-right: 54px;
+    max-width: 373px;
+    padding-right: 65px;
+    margin-bottom: 30px;
     font-size: $fs;
     &:first-letter{
       color: $fcyellow;
     }
   }
   &__link {
-    margin: 0 1014px 0 43px;
     font-size: $fs;
     color: $fcyellow;
   }
@@ -80,7 +80,7 @@ header {
   color: $fc;
   background-image: url('./img/header/Layer\ 5@1X.png') ;
   &__title{
-    margin:70px 739px 60px 46px;
+    margin:70px 0 60px 46px;
     padding-right: 45px;
     font-size: 60px;
     line-height: 48px;

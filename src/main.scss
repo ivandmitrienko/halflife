@@ -37,6 +37,7 @@ header {
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
   
+  
 }
 
 .container {
@@ -49,7 +50,7 @@ header {
 
 .header-inner {
   display: inline-block;
-  margin: 114px 0 0 42px;
+  margin: 114px 0 0 46px;
   color: $fc;
   &__title {
     margin-bottom: 22px;
@@ -79,7 +80,12 @@ header {
   margin-top: 64px;
   color: $fc;
   background-image: url('./img/header/Layer\ 5@1X.png') ;
+  width: 100%;
+  background-position: cover;
+  background-repeat: no-repeat;
+
   &__title{
+    max-width: 413px;
     margin:70px 0 60px 46px;
     padding-right: 45px;
     font-size: 60px;
@@ -91,7 +97,7 @@ header {
   }
   
   &__menu{
-    margin: 0 803px 418px 42px;
+    margin: 0 0 418px 42px;
     max-width: 285px;
     display: flex;
     justify-content: space-between;

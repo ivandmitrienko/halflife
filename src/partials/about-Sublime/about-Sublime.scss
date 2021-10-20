@@ -1,4 +1,20 @@
-
+// .about{
+//     position: relative;
+//     text-align: center;
+//   }
+  
+//   .about__about:after{
+//     content: '';
+//     width: 50px;
+//     background-color: #000;
+//     position: absolute;
+//     height: 1px;
+//     bottom: 0;
+//     margin-left: -25px;
+//     left: 50%;
+  
+  
+//   }
 .about-sublime-top {
     display: flex;
     
@@ -10,6 +26,17 @@
     display: flex;
     flex-direction: column;
     line-height: 50px;
+    position: relative;
+    &:after{
+     content: '';
+     width: 90px;
+     background-color: #c5c5c5;
+     position: absolute;
+     height: 1px;
+     bottom: 12px;
+     margin-left: -25px;
+     left: 80%;
+    }
     &__about {
      margin: 68px 0 0 137px;
      font-size: 30px;
@@ -27,6 +54,7 @@
      &:first-letter{
          color: #ffc600;
         }
+
       
     }
 }

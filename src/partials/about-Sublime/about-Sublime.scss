@@ -1,53 +1,33 @@
-// .about{
-//     position: relative;
-//     text-align: center;
-//   }
-  
-//   .about__about:after{
-//     content: '';
-//     width: 50px;
-//     background-color: #000;
-//     position: absolute;
-//     height: 1px;
-//     bottom: 0;
-//     margin-left: -25px;
-//     left: 50%;
-  
-  
-//   }
+
 .about-sublime-top {
     display: flex;
-    
-    
 
 
-
-.about-sublime-title {
-    display: flex;
-    flex-direction: column;
-    line-height: 50px;
-    position: relative;
+ .about-sublime-title {
+     display: flex;
+     flex-direction: column;
+     line-height: 50px;
+     margin: 68px 0 0 137px;
+     position: relative;
     &:after{
      content: '';
-     width: 90px;
+     width: 95px;
      background-color: #c5c5c5;
      position: absolute;
      height: 1px;
      bottom: 3px;
      margin-left: -25px;
-     left: 80%;
+     left: 65%;
     }
     &__about {
-     margin: 68px 0 0 137px;
      font-size: 30px;
      color: #717171;
      font-weight: bold;
-     &:first-letter{
-         font-size: 50px;
+        &:first-letter{
+            font-size: 50px;
         }    
     }
     &__Sublime {
-     margin: 0 0 0 133px;
      font-size: 80px;
      color: #000000;
      font-weight: bold;
@@ -57,45 +37,102 @@
 
       
     }
-}
-.about-sublime-top-text {
-    max-width: 597px;
-    // position: relative;
+ }
+ .about-sublime-top-text {
+     max-width: 597px;
+     display: flex;
+     align-items: center ; 
+     margin: 36px 3px 0 397px; 
     &:before{
         content: '';
-
-
+        display: flex;
+        flex: 1 0 auto;
+        height: 103px;
+        width: 2px;
+        margin-right: 15px;
+        background-color: #c5c5c5;
     }
-    
-    // &:before{
-    //     content: '';
-    //     display: block;
-    //     height: 10px;
-    //     width: 1px;
-    //     margin-right: 100px;
-    //     background: green;
-        
-        // content: '';
-        // position: absolute;
-        // height: 124px;
-        // width: 1px;
-        // left: -21px;
-        // top: 10px;
-        // background-color: #ffc600;
-    // }
-    margin: 36px 3px 0 397px;
-		&__first {
+     
+        &__first-text {
             font-size: 16px;
-            color: #000000;
-            font-style: oblique;
-            
+            color: #111111;
+            font-style: oblique;            
         }
 
-		&__second {
+		&__second-text {
             margin: 24px 20px 0 0;
             font-size: 14px;
             color:#595959;
 
         }
+
+     
+		
+    }
+   
+}
+
+.about-sublime-content {
+    max-width: 874px;
+    width: 100%;
+    margin: 0 auto ;
+
+    &__row {
+        margin: 72px 0 58px 0;
+       
+    }
+
+    &__items {
+        display: flex;
+        
+        
+
+        
+    
+        
+        
+    }
+
+    &__item {
+        
+        
+        
+        
+    }
+
+    &__item-img {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        border: 2px solid #ffa800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 21px;
+        background-color: #e8e8e8;
+    }
+
+    &__item-title {
+        display: block;
+        margin-bottom: 25px;
+        font-size: 18px;
+        color: #000000;
+    }
+
+    &__item-first-text {
+        margin-bottom: 19px;
+        font-size: 10px;
+        color: #000000;
+        // text-align: center;
+    }
+
+    &__item-second-text {
+        font-size: 10px;
+        color: #000000;
+        // text-align: center;
     }
 }
+
+
+
+

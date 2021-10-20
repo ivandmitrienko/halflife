@@ -1,7 +1,8 @@
 <div class="container">
     <section class="projects">
        <div class="projects-top">
-           @@include('../title-underline/_title.html')
+           @@include('../title-underline/_title.html',
+           {"Yellow": "Featured","Weight":"Projects"})
            <div class="projects-top__menu"></div>
        </div>
        <div class="projects-content">
@@ -18,3 +19,7 @@
        </div>
     </section>
 </div>
+
+<!-- @@include('./partials/article/_articles.html',
+{"Header":"Last News",
+"Border":"blue"}) -->

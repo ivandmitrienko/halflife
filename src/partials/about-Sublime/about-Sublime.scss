@@ -78,7 +78,7 @@
     margin: 0 auto ;
 
     &__row {
-        margin: 72px 0 58px 0;
+        margin-top: 72px;
        
     }
 
@@ -93,6 +93,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 60px;
         
         
         

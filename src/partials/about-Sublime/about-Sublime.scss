@@ -10,14 +10,14 @@
      margin: 68px 0 0 137px;
      position: relative;
     &:after{
-     content: '';
-     width: 95px;
-     background-color: #c5c5c5;
-     position: absolute;
-     height: 1px;
-     bottom: 3px;
-     margin-left: -25px;
-     left: 65%;
+        content: '';
+        display: flex;
+        flex: 0 0 auto;
+        align-self: flex-end;
+        height: 1px;
+        width: 90px;
+        background-color: #c5c5c5;
+
     }
     &__about {
      font-size: 30px;
@@ -46,7 +46,7 @@
     &:before{
         content: '';
         display: flex;
-        flex: 1 0 auto;
+        flex: 0 0 auto;
         height: 103px;
         width: 2px;
         margin-right: 15px;

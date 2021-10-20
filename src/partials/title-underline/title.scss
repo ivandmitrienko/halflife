@@ -1,0 +1,12 @@
+.underline {
+    &:after{
+        content: '';
+        display: flex;
+        flex: 0 0 auto;
+        align-self: flex-end;
+        height: 1px;
+        width: 90px;
+        background-color: #c5c5c5;
+
+    }  
+}

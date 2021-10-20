@@ -1,9 +1,11 @@
 
 .title { 
-    display: flex;  
+    margin: 51px 872px 0 81px;
+    display: inline-flex;  
     font-size: 30px;
     color: #000000;
     font-weight: bold;
+    line-height: 30px;
    
     
     &__yellow {
@@ -24,14 +26,14 @@
         
     
 }
-.underline {  
+.underline { 
     &:after{ 
         content: '';
         display: flex;
         flex: 0 0 auto;
-        align-self: flex-end;
         height: 1px;
-        width: 90px;
+        width: 110px;
+        margin-left: 160px;
         background-color: #c5c5c5;
 
     }  

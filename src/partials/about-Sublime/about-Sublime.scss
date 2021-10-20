@@ -33,7 +33,14 @@
 .about-sublime-top-text {
     max-width: 597px;
     // position: relative;
+    
     &:before{
+        content: '';
+        display: block;
+        height: 10px;
+        width: 1px;
+        margin-right: 100px;
+        background: green;
         
         // content: '';
         // position: absolute;

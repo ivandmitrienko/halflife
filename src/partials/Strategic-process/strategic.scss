@@ -24,32 +24,19 @@
     }
 }
 
+
+
 .strategic-process-content {
     // max-width: 1055px;
-   
-    
-}
-.strategic-process-items { 
-    padding: 43px 0 0 168px;
-   
-   
-   
-   
-}
-.strategic-process {
+        padding: 43px 66px 0 168px;
+     
 
-		&__item {
-            
-            
-           
-            
-            // &:last-child {
-            //     clear: right;
-            // }
-          
-            // float: left;
+
+    &__item {
+        // float: left;
             width: 430px;
             height: 288px;
+            
             
         
         &>img{
@@ -59,10 +46,12 @@
            
             
         }
-        }
+    }
+}
+.strategic-process {
 
-		&__text {
-           
-            padding: 51px 40px 33px 39px;
-        }
+    &__text {
+
+       padding: 51px 40px 33px 39px;
+    }
 }

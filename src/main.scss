@@ -50,6 +50,11 @@ header {
     font-size: 202px;
     font-weight: bold;
     line-height: 0.7;
+    @media screen and (max-width:420px)  {
+      font-size: 140px;
+
+
+    }
     &:first-letter{
       color: $fcyellow;
     }
@@ -73,15 +78,20 @@ header {
   margin-top: 64px;
   color: $fc;
   background-image: url('./img/header/Layer\ 5@1X.png') ;
-  width: 100%;
-  height: 654px;
-  background-position: center;
-  background-size: cover;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   &__inner {
     display: inline-block;
     margin-left: 46px;
+    margin-bottom: 360px;
+    @media screen and (max-width:420px)  {
+      margin-left: 20px;
+      margin-bottom: 0;
+  
+  
+    }
   }
+  
 
   &__title{
     max-width: 413px;
@@ -90,6 +100,12 @@ header {
     font-size: 60px;
     line-height: 48px;
     font-weight: bold;
+    @media screen and (max-width:420px)  {
+      line-height: 24px;
+      max-width: 213px;
+      margin-top:30px;
+      font-size: 30px;
+    }
     &>span {
       color: $fcyellow;
     }
@@ -98,10 +114,17 @@ header {
   &__menu{
     margin-top:60px;
     max-width: 285px;
-
     display: flex;
     justify-content: space-between;
     font-size: $fs;
+    @media screen and (max-width:420px)  {
+      margin-top:20px;
+      max-width: 160px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      margin-bottom: 115px;
+    }
   
   }
 

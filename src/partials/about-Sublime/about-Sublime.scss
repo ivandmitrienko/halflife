@@ -1,13 +1,24 @@
 
 .about-sublime-top {
     display: flex;
+    justify-content: space-between;
+      @media screen and (max-width:420px)  {
+        display: flex;
+        flex-wrap: wrap;
+     }
 
 
  .about-sublime-title {
      display: flex;
      flex-direction: column;
      line-height: 50px;
-     padding: 68px 375px 0 137px;
+     padding: 68px 0 0 137px;
+     @media screen and (max-width:420px)  {
+       padding-left: 35px;
+      
+     }
+
+   
     &:after{
         content: '';
         display: flex;
@@ -39,8 +50,13 @@
  }
  .about-sublime-top-text {
      max-width: 597px;
+     padding-left: 115px;
      display: flex;
-     align-items: center; 
+     align-items: center;
+     @media screen and (max-width:420px)  {
+        padding-left: 20px;
+       
+      } 
     &:before{
         content: '';
         display: flex;

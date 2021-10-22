@@ -1,5 +1,5 @@
-.strategic-process *{
-    outline: 3px solid red;
+.strategic-process {
+  
    
     &__top {}
 }
@@ -27,13 +27,13 @@
 
 
 .strategic-process-content {
-    // max-width: 1055px;
         padding: 43px 66px 0 168px;
+        overflow: hidden;
      
 
 
     &__item {
-        // float: left;
+        float: left;
             width: 430px;
             height: 288px;
             
@@ -47,11 +47,24 @@
             
         }
     }
-}
-.strategic-process {
+
+
 
     &__text {
-
-       padding: 51px 40px 33px 39px;
+        padding: 51px 40px 33px 39px;
+       &>span {
+           display: inline-block;  
+           font-size: 30px;
+           color: #1d1d1d;
+           font-weight: bold;
+           margin-right: 5px;
+        &::first-letter{
+            font-size: 50px;
+        }
+       } 
     }
 }
+
+
+    
+

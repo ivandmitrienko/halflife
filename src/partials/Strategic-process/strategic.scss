@@ -4,26 +4,27 @@
     &__top {}
 }
 .strategic-process-text {
-   
     text-align: left;
-    padding: 26px 31px 0 79px;
+    padding: 26px 174px 0 79px;
 
-    &__first {
-        font-size: 18px;
-        color: #000000;
-        font-style: oblique;
-        padding-bottom: 22px;
 
-    }
-
-    &__second {
-        word-spacing: 2px;
-        font-size: 16px;
-        color: #595959;
-        
-    }
+   
 }
 
+.strategic-process-text-first {
+    font-size: 18px;
+    color: #000000;
+    font-style: oblique;
+    padding-bottom: 22px;
+
+}
+
+.strategic-process-text-second {
+    word-spacing: 2px;
+    font-size: 16px;
+    color: #595959;
+    
+}
 
 
 .strategic-process-content {
@@ -33,9 +34,11 @@
 
 
     &__item {
-        float: left;
+            float: left;
             width: 430px;
             height: 288px;
+       
+        
             
             
         

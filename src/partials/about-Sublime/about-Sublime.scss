@@ -1,25 +1,22 @@
-
 .about-sublime-top {
     display: flex;
     justify-content: space-between;
-      @media screen and (max-width:420px)  {
+    @media screen and (max-width:420px)  {
         display: flex;
         flex-wrap: wrap;
-     }
-
-
- .about-sublime-title {
+    }
+}
+.about-sublime-title {
      display: flex;
      flex-direction: column;
      line-height: 50px;
      padding: 68px 0 0 137px;
-     @media screen and (max-width:420px)  {
+    @media screen and (max-width:420px)  {
        padding-left: 35px;
       
-     }
+    }
 
-   
-    &:after{
+	&:after{
         content: '';
         display: flex;
         flex: 0 0 auto;
@@ -47,16 +44,16 @@
 
       
     }
- }
- .about-sublime-top-text {
-     max-width: 597px;
-     padding-left: 115px;
-     display: flex;
-     align-items: center;
-     @media screen and (max-width:420px)  {
-        padding-left: 20px;
-       
-      } 
+}
+.about-sublime-top-text {
+    max-width: 597px;
+    padding-left: 115px;
+    display: flex;
+    align-items: center;
+    @media screen and (max-width:420px)  {
+       padding-left: 20px;
+      
+    }
     &:before{
         content: '';
         display: flex;
@@ -67,26 +64,28 @@
         background-color: #c5c5c5;
         margin-top: 30px;
     }
-     
-        &__first-text {
-            padding-top: 36px;
+
+	&__first-text {
+        padding-top: 36px;
+    }
+
+	&__second-text {
+        max-width: 440px;
+    }
+}
+.text-inner {
+
+		&__first {
             font-size: 16px;
             color: #111111;
-            font-style: oblique;            
+            font-style: oblique; 
         }
 
-		&__second-text {
-            max-width: 440px;
+		&__second {
             padding-top: 24px;
             font-size: 14px;
             color:#595959;
-
         }
-
-     
-		
-    }
-   
 }
 
 .about-sublime-content {

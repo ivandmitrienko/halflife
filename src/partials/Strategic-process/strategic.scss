@@ -1,34 +1,18 @@
-.strategic-process {
-  
-   
-    &__top {}
-}
+
 .strategic-process-text {
     text-align: left;
-    padding: 26px 174px 0 79px;
+    padding: 26px 64px 0 79px;
+    
+   
 
 
    
 }
 
-.strategic-process-text-first {
-    font-size: 18px;
-    color: #000000;
-    font-style: oblique;
-    padding-bottom: 22px;
-
-}
-
-.strategic-process-text-second {
-    word-spacing: 2px;
-    font-size: 16px;
-    color: #595959;
-    
-}
 
 
 .strategic-process-content {
-        padding: 43px 66px 0 168px;
+        padding: 43px 64px 0 168px;
         overflow: hidden;
      
 
@@ -55,7 +39,7 @@
 
     &__text {
         padding: 51px 40px 33px 39px;
-       &>span {
+       &>span:not(.title-method) {
            display: inline-block;  
            font-size: 30px;
            color: #1d1d1d;
@@ -66,8 +50,38 @@
         }
        } 
     }
+
+    &__text-our-process{
+        padding: 51px 7px 33px 39px;
+       &>span:not(.title-method) {
+           display: inline-block;  
+           font-size: 30px;
+           color: #1d1d1d;
+           font-weight: bold;
+           margin-right: 5px;
+        &::first-letter{
+            font-size: 50px;
+        }
+       } 
+    }
+
+
+
+    
 }
 
 
+.title-method {
+    display: inline-block;  
+    font-size: 30px;
+    color: #1d1d1d;
+    font-weight: bold;
+    padding-bottom:40px;
+
+    &::first-letter{
+        font-size: 63px;
+    }
+
+}
     
 

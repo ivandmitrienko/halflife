@@ -39,11 +39,13 @@
         width: 110px;
         margin-left: 160px;
         background-color: #c5c5c5;
-    &.Line {
-        margin-left: 1150px;
-    }
 
-    }  
+
+    } 
+    &.Line:after {
+        margin-left: 88px;
+        width: 95px;
+        } 
 }
 
 

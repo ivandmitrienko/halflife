@@ -1,7 +1,7 @@
 
 .strategic-process-text {
     text-align: left;
-    padding: 26px 64px 0 79px;
+    padding: 26px 181px 0 79px;
     
    
 
@@ -38,13 +38,12 @@
 
 
     &__text {
-        padding: 51px 40px 33px 39px;
+        padding: 51px 115px 33px 39px;
        &>span:not(.title-method) {
            display: inline-block;  
            font-size: 30px;
            color: #1d1d1d;
            font-weight: bold;
-           margin-right: 5px;
         &::first-letter{
             font-size: 50px;
         }
@@ -52,13 +51,14 @@
     }
 
     &__text-our-process{
-        padding: 51px 7px 33px 39px;
-       &>span:not(.title-method) {
+        padding: 20px 7px 47px 39px;
+       &>span {
            display: inline-block;  
            font-size: 30px;
            color: #1d1d1d;
            font-weight: bold;
            margin-right: 5px;
+           padding-bottom: 22px;
         &::first-letter{
             font-size: 50px;
         }
@@ -79,8 +79,13 @@
     padding-bottom:40px;
 
     &::first-letter{
-        font-size: 63px;
+        font-size: 50px;
     }
+
+}
+
+.title-outcome {
+    padding: 50px 0 28px 0;
 
 }
     

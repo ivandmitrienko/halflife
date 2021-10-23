@@ -6,6 +6,10 @@
     color: #000000;
     font-weight: bold;
     line-height: 30px;
+    &.White{
+        color: #ffffff;
+        margin: 0;
+    }
    
     
     &__yellow {
@@ -35,6 +39,9 @@
         width: 110px;
         margin-left: 160px;
         background-color: #c5c5c5;
+    &.Line {
+        margin-left: 1150px;
+    }
 
     }  
 }

@@ -6,3 +6,27 @@ background: linear-gradient(to right, rgba(107, 60, 92, 0.39), rgba(30, 42, 76, 
 .services-top{
     padding: 41px 0 0 50px;
 }
+
+
+
+.services-content {
+
+		&__items {
+            display: grid;
+            grid-template: repeat(2,164px)/repeat(2,225px);
+
+        }
+
+		&__item {
+            color: #ffffff;
+            padding-right: 55px;
+            &>span{
+                font-size: 18px;
+                // margin-bottom: 20px;
+                
+            }
+            &>p{
+                font-size: 11px;
+            }
+        }
+}

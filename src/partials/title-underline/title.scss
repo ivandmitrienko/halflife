@@ -38,15 +38,20 @@
         height: 1px;
         width: 110px;
         margin-left: 160px;
-        background-color: #c5c5c5;
-
-
+        background-color: #c5c5c5;   
     } 
     &.Line:after {
         margin-left: 88px;
         width: 95px;
         background-color: #ffffff;
-        } 
+    } 
+
+    &.Teamunderline:after {
+        width: 50px;
+        margin-left: 140px;
+    }
+
+
 }
 
 

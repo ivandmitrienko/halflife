@@ -55,7 +55,7 @@
 .services-content-item {
     color: #ffffff;
     max-width: 285px;
-    padding: 0 93px 65px 20px;
+    padding: 0 93px 0 20px;
     @media screen and (max-width:420px)  {
         padding: 20px 20px 20px 0;
     }
@@ -69,6 +69,7 @@
         }
         &__text{
             font-size: 11px;
+            padding-bottom: 65px;
             
 
         }

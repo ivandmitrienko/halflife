@@ -1,14 +1,25 @@
 .team {
+    display: flex;
+    
 }
 .team-top {
 }
 .team-content {
-    display: flex;
+    position: relative;
+    padding-top: 70px;
+    
+    
 }
 .text-inner {
-    max-width: 624px;
+    
+    
+    max-width: 525px;
+    
+    
 
-		&__first {}
+		&__first {
+            
+        }
 
 		&__second {}
 }

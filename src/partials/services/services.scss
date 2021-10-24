@@ -1,27 +1,21 @@
 
-.parallax {
-    height: 478px;
-    position: relative;
-    overflow: hidden;
-}
-.parallax-img {
-    position: absolute;
-    background: linear-gradient(to right, rgba(107, 60, 92, 0.39), rgba(30, 42, 76, 0.39)), url('../../img/services/Layer\ 26.png') ; 
+.parallax-window {
+    min-height: 478px;
+    background: transparent;
+    background: linear-gradient(to right, rgba(107, 60, 92, 0.39), rgba(30, 42, 76, 0.39)); 
     -webkit-background-size: cover;
     background-size: cover;
     background-position:center;
-    width: 110%;
-    height: 110%;
-    transition: all 0.1s ease;  
 }
+
 
 
 
 .services {
- position: relative;
+    position: relative;
  
  
-// background-attachment: scroll;
+ 
 
 
 
@@ -30,14 +24,14 @@
 .services-top{
     position: absolute;
     padding: 41px 30px 0 50px;
+    
 }
 
 .serveces-content {
     position: absolute;
-    padding-top: 200px;
+    padding: 150px 0 0 478px;
     
-    // display: flex;
-    // align-items: flex-end;
+    
     
    
    
@@ -54,7 +48,8 @@
 }
 .services-content-item {
     color: #ffffff;
-    // padding: 0 0 65px 0;
+    max-width: 285px;
+    padding: 0 93px 65px 20px;
    
 
 		&__title {

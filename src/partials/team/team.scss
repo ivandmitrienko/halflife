@@ -19,9 +19,14 @@
 .team-content-items {
     
 
-		&__item {}
+		&__item {
+            overflow: hidden;
+        }
 
-		&__item-img {}
+		&__item-img {
+            max-height: 181px;
+            margin-left: -150px;
+        }
 
 		&__item-name {}
 

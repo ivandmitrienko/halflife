@@ -1,6 +1,7 @@
 .team {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 .team-top {
@@ -26,6 +27,7 @@
 		&__second {}
 }
 .team-content-items {
+    
 
 		&__item {}
 

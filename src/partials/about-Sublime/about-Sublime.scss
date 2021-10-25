@@ -116,15 +116,19 @@
     }
 
     &__item-img {
+        border: 2px solid #ffa800;
         width: 56px;
         height: 56px;
-        border-radius: 50% ;
-        border: 2px solid #ffa800;
+        border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 21px;
         background-color: #e8e8e8;
+        & img {
+            width: 60%;       
+        }
+        
     }
 
     &__item-title {

@@ -11,6 +11,7 @@
         margin: 0;
     }
    
+   
     
     &__yellow {
         margin-right: 10px;
@@ -46,7 +47,7 @@
         background-color: #ffffff;
     } 
 
-    &.Teamunderline:after {
+    &.Teamunderline:after,&.TestimonialsLine:after {
         width: 70px;
         margin-left: 125px;
     }

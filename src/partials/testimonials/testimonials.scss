@@ -31,6 +31,8 @@
 
 
 .testimonials-item {
+    font-size: 16px;
+    line-height: 21px;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -55,7 +57,11 @@
 
         }
 
-		&__name {}
+		&__name {
+            font-weight: bold;
+        }
 
-		&__position {}
+		&__position {
+            font-style: oblique;
+        }
 }

@@ -1,0 +1,32 @@
+.blogs-wrapper {
+    display: grid;
+    grid-template-columns: 33.33% 66.66%;
+}
+.blogs-top {
+}
+.blogs-navigation {
+}
+.blogs-navigation-menu {
+
+		&__link {}
+}
+.blogs-content {
+}
+.blogs-content-row {
+
+		&__item {}
+
+		&__item-img {}
+
+		&__item-data {
+            display: block;
+        }
+
+		&__item-first-text {}
+
+		&__item-second-text {}
+
+		&__item-img--background {
+            background-color: #000;
+        }
+}

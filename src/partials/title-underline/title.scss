@@ -6,6 +6,15 @@
     color: #000000;
     font-weight: bold;
     line-height: 30px;
+    &.Leftpadd{
+    margin: 51px 0 0 50px;
+    display: inline-flex;  
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 30px;
+    
+    }
     &.White{
         color: #ffffff;
         margin: 0;
@@ -47,12 +56,18 @@
         background-color: #ffffff;
     } 
 
-    &.Teamunderline:after,&.TestimonialsLine:after {
+    &.Teamunderline:after{
         width: 70px;
-        margin-left: 125px;
+        margin-left: 95px;
     }
 
 
+
+    &.TestimonialsLine:after{
+        width: 65px;
+        margin-left: 60px;
+
+    }
 }
 
 

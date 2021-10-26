@@ -1,6 +1,7 @@
 .blogs-wrapper {
     display: grid;
     grid-template-columns: 33.33% 66.66%;
+    grid-template-rows: auto auto;
 }
 .blogs-top {
 }
@@ -13,6 +14,7 @@
 .blogs-content {
 }
 .blogs-content-row {
+    display:flex;
 
 		&__item {}
 

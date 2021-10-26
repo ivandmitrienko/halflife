@@ -13,7 +13,7 @@
     align-items: center;
 }
 .text-inner {
-    padding: 0 0 80px 91px;
+    
 		&__first--white-color {
             color: #ffffff;
         }
@@ -25,7 +25,8 @@
 }
 .text {
     &--testimonials{
-        padding: 0;
+        max-width: 592px;
+        padding: 0 0 84px 91px ;
     }
 }
 

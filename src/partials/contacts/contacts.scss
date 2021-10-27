@@ -18,8 +18,11 @@
 		&__link {}
 }
 .contacts-content-form {
+    max-width: 412px;
+    padding-top: 29px;
 
-		&__username {}
+		&__username {
+        }
 
 		&__mobile-email {}
 
@@ -30,4 +33,11 @@
 
 iframe {
     max-width: 478px;
+}
+
+#UserName{
+    width: 100%;
+    background-color: #2046b3;
+    border: 2px solid #c5c5c5;
+
 }

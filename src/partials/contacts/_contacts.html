@@ -7,17 +7,11 @@
     {"Yellow": "Contact","Weight":"Us","Contacts":"Whitecontacts",
     "ContactUs":"Contactline"})
     <div class="contacts-content-form">
-       <form action="#" method="post" enctype="multipart/form-data">
-         <div class="contacts-content-form__username">
-            <input type="text" tabindex="1" placeholder="Your name"  name="username" id="UserName">
-         </div>
-         <div class="contacts-content-form__mobile-email">
-            <input type="tel" tabindex="2" placeholder="Mobile" name="userphone" id="UserPhone">
-            <input type="email" tabindex="3" placeholder="Email" name="useremail" id="UserEmail">
-         </div>
-         <div class="contacts-content-form__message">
-            <textarea name="usermessage" id="UserMessage" ></textarea>
-          </div>
+       <form class="contacts-content-form__about-you" action="#" method="post" enctype="multipart/form-data">
+          <input type="text" tabindex="1" placeholder="Your name"  name="username" id="UserName">
+          <input type="tel" tabindex="2" placeholder="Mobile" name="userphone" id="UserPhone">
+          <input type="email" tabindex="3" placeholder="Email" name="useremail" id="UserEmail">
+          <textarea name="usermessage" id="UserMessage" ></textarea>
           <div class="contacts-content-form__button">
              <button type="submit">SEND</button>
           </div> 

@@ -31,6 +31,7 @@ $fcyellow:#ffc600;
 		&__item {
             padding-top: 49px;
             padding-right: 80px;
+            text-align: left;
             
 
         }
@@ -62,13 +63,25 @@ $fcyellow:#ffc600;
 
 		&__item-data {
             display: block;
+            font-size: 18px;
+            color: $fcyellow;
+            padding: 10px 0 30px;
+
         }
 
-		&__item-first-text {}
+		&__item-first-text {
+            font-size: 15px;
+            padding-bottom: 18px;
+        }
 
-		&__item-second-text {}
+		&__item-second-text {
+            font-size: 12px;
+            font-style: oblique;
+            padding-right: 43px;
+        }
 
-		&__item-img--background {
+		&__item-img--background{
+           
             background-color: #000;
         }
 }

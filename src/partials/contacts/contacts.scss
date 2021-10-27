@@ -11,10 +11,23 @@
     padding: 52px 0 0 89px;
     max-width: 60%;
 
-		&__our-contacts {}
+		&__feedback {}
+
+		&__links {}
+
+		&__link {}
+}
+.contacts-content-form {
+
+		&__username {}
+
+		&__mobile-email {}
+
+		&__message {}
+
+		&__button {}
 }
 
 iframe {
- max-width: 478px;
-    
+    max-width: 478px;
 }

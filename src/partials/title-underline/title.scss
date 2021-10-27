@@ -19,6 +19,11 @@
         color: #ffffff;
         margin: 0;
     }
+    &.Whitecontacts{
+        color: #ffffff;
+        margin: 0;
+        padding-left: 23px;
+    }
    
    
     
@@ -71,6 +76,13 @@
     &.Blogsline::after{
         width: 65px;
         margin-left: 50px;   
+    }
+    &.Contactline::after {
+        width: 120px;
+        margin-left: 23px;   
+        
+
+
     }
 }
 

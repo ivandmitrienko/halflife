@@ -5,14 +5,16 @@
     display: flex;
 }
 .contacts-map {
-    width: 40%;
+    max-width: 40%;
 }
 .contacts-content {
-    width: 60%;
+    padding: 52px 0 0 89px;
+    max-width: 60%;
 
 		&__our-contacts {}
 }
 
 iframe {
+ max-width: 478px;
     
 }

@@ -1,4 +1,4 @@
-.about-sublime-top {
+.sublime-top {
     display: flex;
     justify-content: space-between;
     @media screen and (max-width:420px)  {
@@ -6,7 +6,7 @@
         flex-wrap: wrap;
     }
 }
-.about-sublime-title {
+.sublime-title {
      display: flex;
      flex-direction: column;
      line-height: 50px;
@@ -45,7 +45,7 @@
       
     }
 }
-.about-sublime-top-text {
+.sublime-text {
     max-width: 597px;
     padding-left: 115px;
     display: flex;
@@ -88,7 +88,7 @@
         }
 }
 
-.about-sublime-content {
+.sublime-content {
     max-width: 874px;
     width: 100%;
     margin: 0 auto ;

@@ -18,7 +18,17 @@
 }
 .main-sidebar-menu {
 
-		&__link {}
+		&__link {
+            font-size: 16px;
+             line-height: 36px;
+             font-weight: bold;
+             color: #ffffff;
+             transition: all 0.5s;
+            &:hover{
+                color: #ffc600;
+                transform: scale(1, 1.8);
+            }
+        }
 }
 .main-sidebar-imgs {
 

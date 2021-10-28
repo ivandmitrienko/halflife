@@ -125,9 +125,6 @@ header {
     justify-content: space-between;
     font-size: $fs;
     transition: all 2s;
-  &:hover{
-    transform: scale(1.2);
-  }
     @media screen and (max-width:420px)  {
       margin-top:20px;
       max-width: 160px;
@@ -141,6 +138,10 @@ header {
 
   &__link{
     color: $fcyellow;
+    transition: all 1.5s;
+    &:hover{
+      transform: scale(1.3);
+    }
 
     &:hover{
       color: #ffffff;

@@ -17,6 +17,12 @@
             font-size: 9px;
             color: #101010;
             font-weight: bold;
+            transition: all 2s;
+            &:hover{
+              transform: scale(1.4);
+            }
+  
+
             &>li:not(.projects-top-navigation__link-item){
                 padding-left: 18px;
             }

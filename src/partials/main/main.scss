@@ -1,35 +1,45 @@
 .main {
+    padding: 73px 0 38px 0;
     display: grid;
-    grid-template-columns: 27.00% 73.00%;
+    grid-template-columns: 27.24% 72.76%;
     grid-template-rows: auto auto;
-    background-color: #000000;
     color: #ffffff;
 }
 .main-sidebar {
+    background-color: #000000;
+    padding: 122px 97px 45px 28px;
+    
 
 		&__title {
             font-size: 60px;
             letter-spacing: -3px;
             font-weight: bold;
-            &::first-letter{
+            
+            &:first-letter{
                 color: #ffc600;
             }
         }
 }
 .main-sidebar-menu {
-
-		&__link {
-            font-size: 16px;
-             line-height: 36px;
-             font-weight: bold;
-             color: #ffffff;
-             transition: all 0.5s;
-            &:hover{
-                color: #ffc600;
-                transform: scale(1, 1.8);
-            }
+    margin-right: 90px;
+    padding-bottom: 49px;
+    border-bottom: 2px solid #ffc600;
+         
+	&__link {
+        font-size: 16px;
+        line-height: 36px;
+        font-weight: bold;
+        color: #ffffff;
+        transition: all 0.5s; 
+        &:hover{
+            color: #ffc600;
+            transform: scale(1, 1.8);
         }
+        
+    }
+       
 }
+
 .main-sidebar-imgs {
 
 		&__link {}

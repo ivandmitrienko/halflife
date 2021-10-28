@@ -67,6 +67,7 @@
     
 
 	&__button {
+        transition: all 0.2s linear 0s;
         margin-top: 22px;
         width: 108px;
         height: 33px;
@@ -76,6 +77,8 @@
         font-weight: bold;
         padding-top: 5px;
         border-radius: 4px;
+        
+        
         &:hover {
             box-shadow: 0 0 4px 6px #fdcf00;
             font-size: 20px;
@@ -151,3 +154,4 @@ iframe {
     padding-left: 55px;
 
 }
+

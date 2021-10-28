@@ -1,0 +1,30 @@
+.main {
+    display: grid;
+    grid-template-columns: 27.00% 73.00%;
+    grid-template-rows: auto auto;
+    background-color: #000000;
+    color: #ffffff;
+}
+.main-sidebar {
+
+		&__title {
+            font-size: 60px;
+            letter-spacing: -3px;
+            font-weight: bold;
+            &::first-letter{
+                color: #ffc600;
+            }
+        }
+}
+.main-sidebar-menu {
+
+		&__link {}
+}
+.main-sidebar-imgs {
+
+		&__link {}
+}
+.main-content {
+
+		&__title {}
+}

@@ -17,8 +17,10 @@ $fcyellow:#ffc600;
             font-size: 18px;
             color: #000000;        
             padding-bottom: 20px;
+            transition: all 2s;
             &:hover{
                 color: $fcyellow;
+                transform: scale(1.2);
             }
             
         }

@@ -83,6 +83,18 @@ header {
     padding-left: 10px;
     font-size: $fs;
     color: $fcyellow;
+    animation: pulse 6s infinite;
+    @keyframes pulse{
+      0%{
+        opacity: 1;
+      }
+      50%{
+        opacity: 0;
+      }
+      100%{
+        opacity: 1;
+      }
+    }
   }
 }
 

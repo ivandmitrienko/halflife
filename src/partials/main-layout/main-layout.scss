@@ -21,8 +21,8 @@
         }
 }
 .main-sidebar-menu {
-    margin-right: 90px;
-    padding-bottom: 49px;
+    max-width: 115px;
+    padding: 29px 0 ;
     border-bottom: 2px solid #ffc600;
          
 	&__link {
@@ -41,10 +41,38 @@
 }
 
 .main-sidebar-imgs {
+    display: flex;
+    padding: 14px 0 0 2px;
 
-		&__link {}
+		&__link {
+            padding-right: 5px;
+        }
 }
 .main-content {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+     & img {
+         object-fit: cover;
+         height: 100%;
+         width: 100%;
+     } 
+    
+   
 
-		&__title {}
+	&__title {
+        position: absolute;
+        font-size: 111px;
+        line-height: 89px;
+        color: #ffffff;
+        font-weight: bold;
+        top: 60%;
+        left: 5%;
+        &::first-letter{
+            color: #ffc600;
+        }
+        
+    }
 }
+
+

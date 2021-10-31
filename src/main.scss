@@ -104,15 +104,16 @@ header {
   background-image: url('./img/header/Layer\ 5@1X.png') ;
   background-size: 100% auto;
   background-repeat: no-repeat;
+  // padding-bottom: 35%;
   min-height: 654px;
   // height: 65vh;  
-  @media screen and (min-width: 830px) and (max-width: 1170px)  {
-    min-height: 564px;
+  // @media screen and (min-width: 830px) and (max-width: 1170px)  {
+  //   min-height: 564px;
     // padding-left: 20px;
     // padding-bottom: 230px;
     
     
-  }
+  // }
 
   
   
@@ -122,13 +123,13 @@ header {
    
     display: inline-block;
     padding-left: 46px;
-    // padding-bottom: 360px;
-  //   @media screen and (min-width: 830px) and (max-width: 1200px)  {
-  //     padding-left: 20px;
-  //     padding-bottom: 230px;
+    
+   //   @media screen and (min-width: 830px) and (max-width: 1200px)  {
+   //     padding-left: 20px;
+   //     padding-bottom: 230px;
   
   
-  //   }
+   //   }
   }
   
 

@@ -104,8 +104,15 @@ header {
   background-image: url('./img/header/Layer\ 5@1X.png') ;
   background-size: 100% auto;
   background-repeat: no-repeat;
+  min-height: 654px;
   // height: 65vh;  
-  
+  @media screen and (min-width: 830px) and (max-width: 1170px)  {
+    min-height: 564px;
+    // padding-left: 20px;
+    // padding-bottom: 230px;
+    
+    
+  }
 
   
   

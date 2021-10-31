@@ -1,7 +1,7 @@
 .main {
     padding: 73px 0 38px 0;
     display: grid;
-    grid-template-columns: 27.24% 72.76%;
+    grid-template-columns: 27.24% 72.86%;
     grid-template-rows: auto auto;
     color: #ffffff;
 }
@@ -52,11 +52,12 @@
     position: relative;
     background-color: rgba(0, 0, 0, 0.9);
     overflow: hidden;
-     & img {
-         object-fit: cover;
-         height: 100%;
-         width: 100%;
-     } 
+    & img {
+        object-fit: cover;
+        object-position: left;
+        height: 100%;
+        width: 100%;
+    } 
     
    
 

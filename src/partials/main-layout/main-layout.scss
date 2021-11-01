@@ -135,20 +135,44 @@
     .main-sidebar-menu{
         position: absolute;
         top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(25, 25, 58);
+        padding-left: 20px;
+        border-bottom: none;
+        transition: all .3s ease 0s;
+       
+       
+
+    }
+    .main-sidebar-menu.active{
+        display: block;
+        position: absolute;
+        top: 0;
         left: 0;
         width: 100%;
         height: 100%;
         background-color: rgb(25, 25, 58);
         padding-left: 20px;
+        border-bottom: none;
+        
 
     }
+
 
     .main-sidebar-menu__list{
         display: block;
     }
 
     .main-sidebar-menu__list li{
-
+        line-height: 25px;
+        font-size: 10px;
+        transition: all 0.5s; 
+        &:hover{
+            color: #ffc600;
+            transform: scale(1, 1.3);
+        }
     }
     
     .main-sidebar__burger.active:before{

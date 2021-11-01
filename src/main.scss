@@ -115,6 +115,7 @@ header {
     position: absolute;
     display: inline-block;
     left: 46px;
+    top: 70px;
     
    //   @media screen and (min-width: 830px) and (max-width: 1200px)  {
    //     padding-left: 20px;
@@ -128,8 +129,6 @@ header {
   &__title{
     position:relative;
     max-width: 413px;
-    margin-top:70px;
-    padding-right: 45px;
     font-size: 60px;
     line-height: 48px;
     font-weight: bold;

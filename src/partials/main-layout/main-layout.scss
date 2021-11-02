@@ -107,6 +107,11 @@
             left: 0;
             font-size: 40px;
             letter-spacing: 1px;
+            @media screen and (max-width: 480px){
+                font-size: 30px;
+                
+            }
+           
         }
     }
     .main-sidebar-imgs{
@@ -188,7 +193,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
+        width:33.33%;
         height: 100%;
         background-color: rgb(25, 25, 58);
         border-bottom: none;
@@ -199,16 +204,21 @@
 
 
     .main-sidebar-menu__list{
+        padding-top: 5px;
         display: block;
     }
 
     .main-sidebar-menu__list li{
-        line-height: 25px;
-        font-size: 18px;
+        line-height: 15px;
+        font-size: 12px;
         transition: all 0.5s; 
         &:hover{
             color: #ffc600;
             transform: scale(1, 1.3);
+        }
+        @media screen and (max-width: 480px){
+            font-size: 10px;
+            line-height: 15px;
         }
     }
     

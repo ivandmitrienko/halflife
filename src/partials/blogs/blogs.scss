@@ -47,6 +47,9 @@ $fcyellow:#ffc600;
             }             
 
         }
+        &__item--padding{
+            padding-right: 0;
+        }
 
 		&__item-img {
             overflow: hidden;

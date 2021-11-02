@@ -26,15 +26,25 @@ $fcyellow:#ffc600;
         }
 }
 .blogs-content {
+   padding: 0;
+   
 }
 .blogs-content-row {
     display:flex;
+   
+    
+
 
 		&__item {
             padding-top: 49px;
             padding-right: 80px;
             text-align: left;
-            
+            @media screen and (min-width: 768px) and (max-width: 1300px)  {
+                padding: 20px 50px 0 0;
+            }
+            @media screen and (min-width: 320px) and (max-width: 768px)  {
+                padding: 10px 20px 0 0;
+            }             
 
         }
 
@@ -42,6 +52,13 @@ $fcyellow:#ffc600;
             overflow: hidden;
             position: relative;
             padding: 103px 90px 103px 90px;
+            @media screen and (min-width: 768px) and (max-width: 1300px)  {
+                padding: 83px 70px 83px 70px;
+            }
+            @media screen and (min-width: 320px) and (max-width: 768px)  {
+                padding: 10px 20px 0 0;
+            }             
+
 
             & img{
                 width: 100%;

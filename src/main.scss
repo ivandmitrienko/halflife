@@ -225,6 +225,10 @@ header {
   display: none;
   position: fixed;
   z-index: 999;
+  @media screen and (max-width: 780px){
+    height: 30px;
+    width: 30px;
+  }
 }
 
 

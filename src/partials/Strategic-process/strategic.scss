@@ -12,23 +12,32 @@
 
 
 .strategic-process-content {
-        padding: 43px 64px 0 168px;
-        overflow: hidden;
+        margin: 0 auto;
+        padding: 43px 0 64px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        
+        // overflow: hidden;
      
 
 
-    &__item {
-            float: left;
-            width: 430px;
-            height: 288px;
+    &__item { 
+            // float: left;
+            max-width: 430px;
+            max-height: 288px;
        
         
             
             
         
         &>img{
-            width: 100%;
-            height: 100%;
+            max-width: 100%;
+            max-height: 100%;
+            
             
            
             
@@ -64,10 +73,7 @@
         }
        } 
     }
-
-
-
-    
+        
 }
 
 
@@ -88,5 +94,53 @@
     padding: 50px 0 28px 0;
 
 }
+   
+@media screen and (max-width: 900px){
+    .strategic-process-content{
+        display: flex;
+        flex-direction: column;
+        &__item--first {
+            order: 1;
+    
+        }
+    
+        &__item--second {
+            order: 2;
+    
+        }
+    
+    
+        &__item--third {
+            order: 4;
+    
+        }
+    
+    
+        &__item--four {
+            order: 3;
+    
+        }
+    
+        &__item--five {
+            order: 5;
+    
+        }
+    
+        &__item--six {
+            order: 6;
+        }
+
+    }
+
+
     
 
+}
+    
+    
+
+
+
+
+
+    

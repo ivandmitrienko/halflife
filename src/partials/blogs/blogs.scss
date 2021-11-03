@@ -12,11 +12,11 @@ $fcyellow:#ffc600;
 }    
 .blogs-sidebar {
     padding-bottom: 35px;
-    @media screen and (min-width: 320px) and (max-width: 1200px)  {
-        position: absolute;
-        top: 0;
-        left: -100%;
-    }
+    // @media screen and (min-width: 320px) and (max-width: 1200px)  {
+    //     position: absolute;
+    //     top: 0;
+    //     left: -100%;
+    // }
 }
 .blogs-navigation {
     padding: 55px 0 50px 115px;
@@ -136,4 +136,98 @@ $fcyellow:#ffc600;
        
         background-color: #000;
     }
+}
+
+.blog-content__burger{
+    display: none;
+}
+@media screen and (max-width: 1200px){
+    .blog-content__burger {
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+        top: 10px;
+        right: 10px;
+    
+    
+        
+    }
+    .blog-content__burger:before,
+    .blog-content__burger:after{
+       content: '';
+       background-color: #000;
+       position: absolute;
+       width: 100%;
+       height: 2px;
+       left: 0; 
+       transition: all .3s ease 0s;  
+    
+    }
+    
+    .blog-content__burger:before{
+        top: 0;
+    
+    }
+    .blog-content__burger::after{
+        bottom: 0;
+    
+    }
+    
+    .blog-content__burger span{
+        position: absolute;
+        background-color: #000;
+        width: 100%;
+        left: 0;
+        height: 2px;
+        top: 9px;
+        transition: all .3s ease 0s;
+    }
+    .blogs-sidebar{
+        position: absolute;
+        top: 0;
+        left: -100%;
+        max-width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(25, 25, 58);
+        padding-left: 20px;
+        border-bottom: none;
+        transition: all .3s ease 0s;
+        visibility: hidden;
+       
+       
+
+    }
+    .blogs-sidebar.active{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:33.33%;
+        height: 100%;
+        background-color: tomato;
+        border-bottom: none;
+        visibility: visible;
+        z-index: 99;
+        
+
+    }
+
+    .blog-content__burger.active:before{
+        transform: rotate(45deg);
+        top: 9px;
+
+    }
+    .blog-content__burger.active:after{
+        transform: rotate(-45deg);
+        bottom: 9px;
+
+    }
+    .blog-content__burger.active span{
+        transform: scale(0);
+    }
+    
+
 }

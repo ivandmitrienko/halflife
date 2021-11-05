@@ -12,14 +12,12 @@ $fcyellow:#ffc600;
 }    
 .blogs-sidebar {
     padding-bottom: 35px;
-    // @media screen and (min-width: 320px) and (max-width: 1200px)  {
-    //     position: absolute;
-    //     top: 0;
-    //     left: -100%;
-    // }
 }
 .blogs-navigation {
     padding: 55px 0 50px 115px;
+    @media screen and (min-width: 768px) and (max-width: 1200px)  {
+        padding: 55px 0 50px 65px;     
+    }
               
 }
 .blogs-navigation-menu {

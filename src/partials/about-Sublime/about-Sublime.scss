@@ -1,8 +1,7 @@
 .sublime-top {
     display: flex;
     justify-content: space-between;
-    @media screen and (max-width:420px)  {
-        display: flex;
+    @media screen and (max-width:768px)  {
         flex-wrap: wrap;
     }
 }
@@ -11,8 +10,8 @@
      flex-direction: column;
      line-height: 50px;
      padding: 68px 0 0 137px;
-    @media screen and (max-width:420px)  {
-       padding-left: 35px;
+    @media screen and (max-width:768px)  {
+        padding: 34px 0 0 35px;
       
     }
 
@@ -50,8 +49,9 @@
     padding-left: 115px;
     display: flex;
     align-items: center;
-    @media screen and (max-width:420px)  {
-       padding-left: 20px;
+    @media screen and (max-width:768px)  {
+        max-width: 100%;
+        padding-left: 35px;
       
     }
     &:before{

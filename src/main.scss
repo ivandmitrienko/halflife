@@ -143,8 +143,10 @@ header {
     display: inline-block;
     left: 46px;
     top: 70px;
-    
-     
+    @media screen and (min-width: 320px) and (max-width: 768px)  {
+      left: 20px;
+      top: 20px;
+    }    
   }
   
 
@@ -154,6 +156,10 @@ header {
     font-size: 60px;
     line-height: 48px;
     font-weight: bold;
+    @media screen and (min-width: 320px) and (max-width: 768px)  {
+      font-size: 30px;
+      line-height: 1.4;
+    }   
     @keyframes noise-anim{
       $steps:20;
       @for $i from 0 through $steps{
@@ -191,12 +197,8 @@ header {
       clip:rect(0,900px,0,0); 
       animation:noise-anim-2 3s infinite linear alternate-reverse;
     }
-    @media screen and (max-width:420px)  {
-      line-height: 24px;
-      max-width: 213px;
-      margin-top:30px;
-      font-size: 30px;
-    }
+   
+
     &>span {
       color: $fcyellow;
     }
@@ -208,9 +210,9 @@ header {
     display: flex;
     justify-content: space-between;
     font-size: $fs;
-    @media screen and (max-width:420px)  {
+    @media screen and (max-width:768px)  {
       margin-top:20px;
-      max-width: 160px;
+      max-width: 100%;
       display: flex;
       justify-content: space-between;
       font-size: 14px;

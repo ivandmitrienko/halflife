@@ -144,61 +144,62 @@ header {
     left: 46px;
     top: 70px;
     @media screen and (min-width: 320px) and (max-width: 768px)  {
-      left: 20px;
-      top: 20px;
+      left: 30px;
+      top: 30px;
+      width: 60%;
     }    
   }
   
 
   &__title{
     position:relative;
-    max-width: 413px;
+    max-width: 343px;
     font-size: 60px;
     line-height: 48px;
     font-weight: bold;
     @media screen and (min-width: 320px) and (max-width: 768px)  {
       font-size: 30px;
-      line-height: 1.4;
-    }   
-    @keyframes noise-anim{
-      $steps:20;
-      @for $i from 0 through $steps{
-        #{percentage($i*(1/$steps))}{
-          clip:rect(random(100)+px,9999px,random(100)+px,0);
+      line-height: 1;
+    }
+    @media screen and (min-width: 580px) and (max-width: 5000px)  {   
+      @keyframes noise-anim{
+        $steps:20;
+        @for $i from 0 through $steps{
+          #{percentage($i*(1/$steps))}{
+            clip:rect(random(100)+px,9999px,random(100)+px,0);
+          }
         }
       }
-    }
-    &:after{
-      content:attr(data-text);
-      position:absolute;
-      left:2px;
-      text-shadow:-1px 0 red;
-      top:0;
-      overflow:hidden;
-      clip:rect(0,900px,0,0); 
-      animation:noise-anim 2s infinite linear alternate-reverse;
-    }
-    
-    @keyframes noise-anim-2{
-      $steps:20;
-      @for $i from 0 through $steps{
-        #{percentage($i*(1/$steps))}{
-          clip:rect(random(100)+px,9999px,random(100)+px,0);
+      &:after{
+        content:attr(data-text);
+        position:absolute;
+        left:2px;
+        text-shadow:-1px 0 red;
+        top:0;
+        overflow:hidden;
+        clip:rect(0,900px,0,0); 
+        animation:noise-anim 2s infinite linear alternate-reverse;
+      }
+      
+      @keyframes noise-anim-2{
+        $steps:20;
+        @for $i from 0 through $steps{
+          #{percentage($i*(1/$steps))}{
+            clip:rect(random(100)+px,9999px,random(100)+px,0);
+          }
         }
       }
-    }
-    &:before{
-      content:attr(data-text);
-      position:absolute;
-      left:-2px;
-      text-shadow:1px 0 blue; 
-      top:0;
-      overflow:hidden;
-      clip:rect(0,900px,0,0); 
-      animation:noise-anim-2 3s infinite linear alternate-reverse;
-    }
-   
-
+      &:before{
+        content:attr(data-text);
+        position:absolute;
+        left:-2px;
+        text-shadow:1px 0 blue; 
+        top:0;
+        overflow:hidden;
+        clip:rect(0,900px,0,0); 
+        animation:noise-anim-2 3s infinite linear alternate-reverse;
+      }
+    }    
     &>span {
       color: $fcyellow;
     }
@@ -212,11 +213,14 @@ header {
     font-size: $fs;
     @media screen and (max-width:768px)  {
       margin-top:20px;
-      max-width: 100%;
       display: flex;
       justify-content: space-between;
+      font-size: 20px;
+      max-width: 100%;
+    }
+    @media screen and (max-width:480px){
+      margin-top:15px;
       font-size: 14px;
-      margin-bottom: 115px;
     }
   
   }

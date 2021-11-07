@@ -76,9 +76,14 @@
     &__text{
         font-size: 11px;
         padding-bottom: 65px;
-        @media screen and (min-width: 320px) and (max-width: 768px){
+        @media screen and (min-width: 430px) and (max-width: 768px){
             padding-bottom: 20px;
             font-size: 12px;
+        }
+        @media screen and (max-width: 429px){
+            padding-bottom: 20px;
+            font-size: 10px;
+            font-weight: bold;
         }  
         
     }

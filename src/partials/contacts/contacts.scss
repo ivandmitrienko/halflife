@@ -5,7 +5,7 @@
     grid-template-columns: 40% 60%;
     grid-template-rows: auto auto;
     @media screen and (min-width:320px) and (max-width:768px) {
-        padding: 52px 20px 0 20px;
+        padding-top: 52px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -28,7 +28,7 @@
     }
     @media screen and (min-width:320px) and (max-width:768px) {
         order: 1;
-        padding-left: 30px;
+        padding: 0;
 
     }
 
@@ -73,6 +73,7 @@
     padding-top: 29px;
     @media screen and (min-width:320px) and (max-width:768px) {
         width: 100%;
+        padding: 0 10px;
     }
     &__about-you>input, textarea {
         background-color: #2046b3;
@@ -127,7 +128,10 @@ iframe {
 }
 
 #UserName{
-    width: 100%;          
+    width: 100%;
+    @media screen and (min-width:320px) and (max-width:768px) {
+        margin-top: 18px;
+    }          
 }
 
 #UserPhone{
@@ -135,6 +139,7 @@ iframe {
     margin: 18px 47px 10px 0;
     @media screen and (min-width:320px) and (max-width:768px) {
         width: 100%;
+        margin: 18px 0 ;
     }
 }    
 #UserEmail {
@@ -142,6 +147,7 @@ iframe {
     margin: 18px 0 10px 0;
     @media screen and (min-width:320px) and (max-width:768px) {
         width: 100%;
+        margin: 0 0 18px;
     }
 }
 

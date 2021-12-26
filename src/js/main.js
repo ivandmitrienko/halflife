@@ -1,4 +1,4 @@
-// "use strict"
+// // "use strict"
 
 // function newAnketa() {
 
@@ -20,18 +20,17 @@
 //         age = +prompt("Введите Ваш возвраст", ""); 
 //     } while (!isFinite(age) || age === null || age === "");
 
-    
-
+//     gender = confirm("Ваш пол мужской?")? "мужской" : "женский";
 
 //     alert(`ваше ФИО: ${surname} ${name} ${patronymic}
 // ваш возраст в годах: ${age}
 // ваш возраст в днях: ${age * 365}
 // через 5 лет вам будет: ${age + 5}
-// ваш пол: мужской
+// ваш пол: ${gender}
 // вы на пенсии: нет`);
 // }
 
-// newAnketa();
+newAnketa();
 // let x = parseInt('a123');
 // console.log( Object.is(parseInt('a123131'), NaN) );
 

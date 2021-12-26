@@ -17,14 +17,16 @@
 //     } while (parseFloat(patronymic) || patronymic === null || patronymic === "");
 
 //     do{
-//         age = prompt("Введите Ваш возвраст", ""); 
-//     } while (isFinite(age) || age === null || age === "");
+//         age = +prompt("Введите Ваш возвраст", ""); 
+//     } while (!isFinite(age) || age === null || age === "");
+
+    
 
 
 //     alert(`ваше ФИО: ${surname} ${name} ${patronymic}
 // ваш возраст в годах: ${age}
-// ваш возраст в днях: ${age*365}
-// через 5 лет вам будет: 25
+// ваш возраст в днях: ${age * 365}
+// через 5 лет вам будет: ${age + 5}
 // ваш пол: мужской
 // вы на пенсии: нет`);
 // }

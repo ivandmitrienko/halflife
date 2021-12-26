@@ -22,9 +22,9 @@ function newAnketa() {
 
     gender = confirm ("Ваш пол мужской?") ? "мужской" : "женский";
 
-     if (gender == "мужской" &&  age > 63) 
+     if (gender == "мужской" && age >= 63) 
         retired = "да";
-     else if (gender == "женский" &&  age > 58)
+     else if (gender == "женский" && age >= 58)
         retired = "да";
      else    
         retired = "нет"; 

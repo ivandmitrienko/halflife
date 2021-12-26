@@ -2,7 +2,7 @@
 
 // function newAnketa() {
 
-//     let name;
+//     let name, patronymic, surname, age, ageInDays, ageInFiveYears, gender, retired; ;
 
 //     do{
 //         name = prompt("Введите Ваше имя", ""); 

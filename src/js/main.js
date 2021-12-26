@@ -30,7 +30,7 @@
 // вы на пенсии: нет`);
 // }
 
-newAnketa();
+// newAnketa();
 // let x = parseInt('a123');
 // console.log( Object.is(parseInt('a123131'), NaN) );
 

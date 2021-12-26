@@ -2,22 +2,36 @@
 
 // function newAnketa() {
 
-//     let name, patronymic, surname, age, ageInDays, ageInFiveYears, gender, retired; ;
+//     let name, patronymic, surname, age, ageInDays, ageInFiveYears, gender, retired;
+
+//     do{
+//         surname = prompt("Введите Вашу фамилию", ""); 
+//     } while (parseFloat(surname) || surname === null || surname === "");
 
 //     do{
 //         name = prompt("Введите Ваше имя", ""); 
 //     } while (parseFloat(name) || name === null || name === "");
 
-//     alert(`ваше ФИО: Иванов ${name} Иванович
-// ваш возраст в годах: 20
-// ваш возраст в днях: 7300
+//     do{
+//         patronymic = prompt("Введите Вашу отчество", ""); 
+//     } while (parseFloat(patronymic) || patronymic === null || patronymic === "");
+
+//     do{
+//         age = prompt("Введите Ваш возвраст", ""); 
+//     } while (isFinite(age) || age === null || age === "");
+
+
+//     alert(`ваше ФИО: ${surname} ${name} ${patronymic}
+// ваш возраст в годах: ${age}
+// ваш возраст в днях: ${age*365}
 // через 5 лет вам будет: 25
 // ваш пол: мужской
 // вы на пенсии: нет`);
 // }
 
 // newAnketa();
-
+// let x = parseInt('a123');
+// console.log( Object.is(parseInt('a123131'), NaN) );
 
 // do {
 //     num = prompt("Введите число", 0);

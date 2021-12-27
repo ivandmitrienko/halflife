@@ -22,31 +22,20 @@ function newAnketa() {
 
     gender = confirm ("Ваш пол мужской?") ? "мужской" : "женский";
 
-     if (gender == "мужской" && age >= 63) 
-        retired = "да";
-     else if (gender == "женский" && age >= 58)
-        retired = "да";
-     else    
-        retired = "нет"; 
+    if (gender == "мужской" && age >= 63) 
+    retired = "да";
+    else if (gender == "женский" && age >= 58)
+    retired = "да";
+    else    
+    retired = "нет"; 
         
-
-
-
-
     alert(`ваше ФИО: ${surname} ${name} ${patronymic}
-ваш возраст в годах: ${age}
-ваш возраст в днях: ${age * 365}
-через 5 лет вам будет: ${age + 5}
-ваш пол: ${gender}
-вы на пенсии: ${retired}`);
+    ваш возраст в годах: ${age}
+    ваш возраст в днях: ${age * 365}
+    через 5 лет вам будет: ${age + 5}
+    ваш пол: ${gender}
+    вы на пенсии: ${retired}`);
 }
 
 newAnketa();
 
-// let x = parseInt('a123');
-// console.log( Object.is(parseInt('a123131'), NaN) );
-
-// do {
-//     num = prompt("Введите число", 0);
-// } while ( !isFinite(num) || num === null || num === '' );
-// patronymic, surname, age, ageInDays, ageInFiveYears, gender, retired; 
